@@ -1,0 +1,901 @@
+
+header {
+	margin: 0;
+	background-color: #75226b;
+}
+
+footer .footer-links-container p a {
+    	color:#5c6770 !important;
+    	text-decoration: none !important;
+    }
+
+.logo-options{
+	background-color: #75226b;
+}
+
+
+.bx-pager a {
+	background: unset !important;
+	border: 1px solid #ccc;
+	border-radius: 15px;
+}
+
+.hero .caption p {
+    font-family: "Gotham 2r", "Gotham A", "Gotham B", Arial, sans-serif;
+    font-style: normal;
+    font-size: 2vw !important;
+    display: block;
+    margin-bottom: 0;
+    color: #75226b;
+    text-transform: initial;
+    text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+}
+
+.desktop-disclaimer {
+    line-height: 1.5;
+}
+
+.hero .caption p b{
+    font-weight: 400;
+}
+
+
+.text-callout{
+    margin-top: 50px;
+}
+
+.text-callout p{
+    font-family: "Gotham 2r", "Gotham A", "Gotham B", Arial, sans-serif;
+    font-style: normal;
+    font-size: 1.9vw !important;
+    display: block;
+    margin-bottom: 0;
+    color: #75226b;
+}
+
+.text-callout p b{
+   font-weight: 400;
+}
+
+
+div.carousel {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.carousel .wrapper {
+    position: relative;
+    min-width: 100%;
+}
+
+div.bxviewport{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: 1155px;
+}
+
+div.hero span.responsive-options img{
+width: 100% !important;
+}
+
+.bx-controls .slider-prev a, .bx-controls .slider-next a {
+    color: #929aa0;
+    display: none;
+}
+
+
+.bx-pager a:hover, .bx-pager a.active {
+    background: none repeat scroll 0 0 #ffffff!important;
+}
+
+.bx-pager .bx-pager-item {
+	margin-left: 20px;
+}
+
+
+.mobile-menu-toggle {
+    position: absolute;
+    left: 0;
+    bottom: 30px !important;
+    color: #f5f5f5;
+    display: block;
+    font-size: 16px;
+    height: 24px;
+    padding-top: 6px;
+    text-align: center;
+    width: 35px;
+    margin-left: 8px;
+    z-index: 2001;
+}
+
+
+.mobile-menu-toggle .icon-bar {
+    display: block;
+    width: 30px;
+    height: 4px;
+    margin: 0 auto 5px;
+    background-color: #eeeeee;
+}
+
+.hero .caption {
+	bottom: 60px;
+}
+
+.hero .caption h3{
+	font-size: 2vw;
+}
+
+.thumbnail-block .thumbnail{
+	border: 0 solid #ddd;
+}
+
+.page-header-generic .nav-pills .glyphicon {
+    display: none;
+}
+
+
+@media screen and (min-width: 992px){
+	body{
+		width: 100%;
+	}
+	header{
+		height: auto;
+		border-bottom: 12px solid #fff;
+	}
+
+	.canvas-container {
+		width: 100%;
+
+	}
+
+	.main-nav .wrapper > ul ul {
+		background: unset;
+
+	}
+
+	.main-nav {
+		background: #75226b;
+		 margin-top: -15px;
+	}
+	.main-nav .wrapper > ul ul {
+		top:71px;
+		padding: unset;
+		padding-left: 1px;
+		padding-right: 1px;
+		padding-bottom: 1px;
+	}
+	.main-nav .wrapper > ul ul li {
+	    margin-left: unset;
+		margin-right: unset;
+	}
+	.main-nav .wrapper > ul ul li a {
+	    line-height: 3;
+	}
+	.main-nav .wrapper > ul ul li.last {
+	    margin-bottom: unset;
+	}
+	.main-nav .wrapper > ul ul li.last a {
+	    padding-bottom: 12px;
+	}
+	.main-nav .wrapper ul li .over {
+		background: #75226b;
+	}
+	.main-nav .caret{
+		display: none;
+	}
+
+	.main-nav .wrapper ul li a {
+	color: #ffffff;
+	font-weight: 300;
+
+	}
+
+	.template--generic-one-column header, .template--register header, .template--search-results header {
+		border-bottom: 19px solid #fff;
+	}
+
+	.mobile-menu-toggle{
+	display: none;
+	}
+
+	.main-nav .wrapper ul ul li a:hover{
+		background-color:rgba(255, 255, 255,0.5) !important;
+	}
+
+	.no-touchcapable .main-nav .wrapper ul li.here a{
+		color: #ffffff;
+		/*font-weight : bolder;*/
+	}
+
+	.no-touchcapable .main-nav .wrapper ul li a:visited{
+		background: #75226b !important;
+	}
+
+
+	.main-nav .wrapper ul ul{
+		background: #75226b;
+
+	}
+
+	.main-nav .wrapper ul ul li{
+		border-bottom: #fff 1px solid;
+
+	}
+
+
+	.main-nav .wrapper ul ul li a{
+		background: #75226b;
+
+	}
+
+	.main-nav .wrapper ul ul .over a{
+		background: rgba(92, 103, 112, 0);
+		color: #ffffff;
+	}
+
+	.no-touchcapable .main-nav .wrapper ul ul li a:hover{
+		background-color:rgba(255, 255, 255,0.5) !important;
+		text-decoration-line: unset;
+	}
+
+	.no-touchcapable .main-nav .wrapper ul li.here a{
+		color: #ffffff;
+		/*font-weight : bolder;*/
+		/*border-bottom: 2px solid #fff;*/
+	}
+
+	ul.main-nav-list {
+	    position: absolute;
+	    top: 3%;
+	    left: 35%;
+	    z-index: 1000;
+	}
+
+	li.level-1:hover {
+		border-bottom: 2px solid #fff;
+	}
+
+	li.level-1:last-child {
+		border-bottom: none;
+	}
+
+	.thumbnail-list {
+		width:1100px;
+		margin:50px auto;
+	}
+
+	.thumbnail-block {
+	    display:inline-block;
+	    width: 363px;
+	    vertical-align: top;
+	}
+
+	.ms-treatment-description {
+		text-align: center;
+	}
+
+	.ms-treatment-description h3 {
+		color:#75226b;
+		font-size: 18px;
+	}
+
+	.image.adaptiveimage.parbase.section {
+		width: 100%;
+		background: #b897b4;
+		text-align: center;
+	}
+
+
+	.content .main .adaptiveimage figure img {
+		width: auto;
+	}
+
+	.row.footer-links-container {
+		width: 1200px;
+		margin: 10px auto;
+	}
+
+	footer .footer-links-container .logo-biogen{
+		width: auto;
+		position: absolute;
+	}
+
+	footer .footer-links-container .footer-info {
+		max-width: 100% !important;
+		font-size: 12px;
+		margin-left: 70px;
+	}
+
+	footer p{
+		text-align: left !important;
+	}
+
+	.page-utils {
+		visibility: hidden;
+	}
+
+	footer {
+		margin-top: -10px;	
+	}
+
+	.logo-biogen {
+		margin-left: -80px;
+	}
+	
+	.logo-biogen1{
+	    margin-top: 11px;
+	}
+
+	.logo-biogen2 {
+	 	float:none !important;   
+    }
+
+    .references {
+    	margin-bottom: 50px;
+    	font-size: 12px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 991px){
+	.main-nav {
+		background: #75226b;
+		z-index: 1;
+	}
+
+	.main-nav ul li a {
+    	color: white;
+    	text-transform: uppercase;
+   	font-weight: 300;
+    	font-style: normal;
+   	text-transform: uppercase;
+    	line-height: 1;
+    	text-align: center;
+    	display: block;
+    	font-size: 13px;
+    	padding: 12px 45px 8px 15px;
+    	position: relative;
+	}
+
+
+	.no-touchcapable .main-nav .wrapper ul li a:hover {
+  	background : none;
+	}
+
+	.main-nav ul ul{
+	background: #75226b;
+	}
+
+	.main-nav .caret {
+	display:none;
+	}
+
+	.main-nav .wrapper ul li  a.on{
+	background: #75226b;
+	}
+
+	.main-nav ul ul li a:hover{
+	    background: #75226b !important;
+	    color: #f4f4f4;
+	}
+
+}
+
+
+
+@media (max-width: 620px){
+	.hero .caption p {
+		display: block;
+		font-size: 4vw !important;
+	}
+
+
+	.bx-pager a {
+		width: 3vw !important;
+		height: 3vw !important;
+		margin: -18px 5px !important;
+	}
+
+	.text-callout p {
+	    font-size: 4vw !important;
+	}
+
+	.thumbnail-block {
+	    float: none;
+	}
+	
+	.references .wrapper {
+    max-width: 100%;
+}
+
+
+}
+
+
+
+@media (min-width: 621px){
+	.bx-pager a {
+		width: 1.5vw;
+		height: 1.5vw;
+		margin: -20PX 5px;
+	}
+
+	.hero-content-bottom-center .caption {
+    		bottom: 60px;
+	}
+
+	.hero .caption p {
+		font-size: 2vw !important;
+
+	}
+
+	.thumbnail-block {
+	    float: none;
+	}
+
+}
+
+@media (max-width: 991px) and (min-width: 768px){
+	.hidden-sm {
+		display: none !important;
+	}
+
+}
+
+
+footer .siteMapFooter-links {
+    display: none !important;
+}
+
+/*
+footer .back-to-top .icon-span {
+	background: #75226b;
+
+}
+
+footer {
+	border-bottom: 30px solid #75226b;
+}
+
+footer div.wrapper div.row div{
+	width: 100%;
+}
+
+footer .logo-biogen {
+    text-align: left;
+}
+
+footer p {
+    text-align: left;
+}*/
+
+@media (min-width: 320px) and (max-width: 736px) and (orientation : portrait) {
+	br.desktop {
+		display: none;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 568px) and (orientation : landscape) {
+	br.desktop {
+		display: none;
+	}
+	
+	.text.parbase.section .disclaimer-text {
+		font-size: 2.5vw !important;
+	}
+	
+	.image.adaptiveimage.parbase.section .img-responsive {
+		margin-bottom: -90px;
+	}
+	.text.parbase.section {
+		margin-top: unset !important;
+	}
+}
+
+
+
+@media only screen and (min-device-width : 480px) and (max-device-width : 1024px) {
+
+body {
+    width: 100%;
+    }
+
+ul.main-nav-list {
+	left:26%;
+    }
+
+.thumbnail-list {
+		width:100%;
+		margin:50px auto;
+	}
+
+	.thumbnail-block {
+	    /*display:inline-block;
+	    width: 363px;*/
+		float: none;
+	    vertical-align: top;
+	}
+
+	.ms-treatment-description {
+		text-align: center;
+	}
+
+	.ms-treatment-description h3 {
+		color:#75226b;
+		font-size: 18px;
+	}
+
+	footer .footer-links-container .logo-biogen{
+		width: auto;
+		position: absolute;
+	}
+
+	footer .footer-links-container .footer-info {
+		max-width: 100% !important;
+		font-size: 12px;
+		margin-left: 136px;
+	}
+
+	footer p{
+		text-align: left !important;
+	}
+
+	.page-utils {
+		visibility: hidden;
+	}
+
+	footer {
+		margin-top: -30px;
+	}
+
+	.logo-biogen {
+		margin-left: -80px;
+	}
+
+	footer .footer-links-container .logo-biogen {
+		width: 100%;
+		left: 11%;
+	}
+	
+	br.desktop {
+		display: none;
+	}
+	
+	
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+
+
+	ul.main-nav-list {
+		left:26%;
+	}
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait) {
+
+	body {
+		width: 111%;
+	}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 854px) {
+	.thumbnail-list {
+		width:100%;
+	}
+
+	/*.thumbnail-block {
+	    display:inline-block;
+	}*/
+
+	.ms-treatment-description {
+		text-align: center;
+		padding:10px;
+	}
+
+	.ms-treatment-description h3 {
+		color:#75226b;
+		font-size: 18px;
+	}
+
+	.ms-treatment-description p {
+		font-size: 15px;
+	}
+
+	/*footer .logo-biogen{
+		margin-top: -30px;
+	}*/
+	
+	.text.parbase.section .disclaimer-text {
+		font-size: 2.7vw;
+ 	}
+
+}
+
+footer {
+	border-bottom: none !important;
+}
+
+footer .back-to-top .icon-span {
+	background: #771d64;
+}
+
+/** component mini navigation **/
+.content-nav .columncontrol.section, .calendar-nav .columncontrol.section {
+	width: 100%;
+	margin: 0 auto;
+	display: inherit;
+	background-color: #dac3d7;
+	height: 130px;
+}
+
+.content-nav .columncontrol.section .image.parbase.section, .calendar-nav .columncontrol.section .image.parbase.section {
+	width: 150px;
+}
+
+.content-nav .columncontrol.section img.cq-dd-image, .calendar-nav .columncontrol.section img.cq-dd-image {
+	width: unset;
+	margin-left: auto;
+    margin-right: auto;
+	padding-top: 20px;
+}
+
+.content-nav .columncontrol.section .text.parbase.section{
+    width: 240px;
+    margin: unset;
+    margin-left: -70px;
+	padding-top: 10px;
+    margin-right: auto;
+    text-align: center;
+}
+.calendar-nav .columncontrol.section .text.parbase.section{
+    width: 170px;
+    margin: unset;
+    margin-left: -50px;
+	padding-top: 5px;
+    margin-right: auto;
+    text-align: center;
+}
+
+.calendar-nav .html.parbase.section, .calendar-nav .calendarpicker.section{
+    width: 140px;
+    margin: unset;
+    margin-left: -50px;
+    padding-top: 50px;
+    margin-right: auto;
+    text-align: center;
+}
+
+.calendar-nav .calendarpicker.section{
+    padding-top: 43px;
+    width: 300px;
+    margin: unset;
+    margin-left: -115px;
+}
+
+.content-nav h3, .calendar-nav h3 {
+    color: #781f64;
+    font-size: 20px;
+}
+
+.canvas-container .columncontrol.section {
+    margin-bottom: 25px;
+}
+
+@media (max-width: 768px){
+.content-nav .column-control-column ,.calendar-nav .column-control-column {
+    background-color: #d7c6d6;
+}
+	.content-nav .columncontrol.section .image.parbase.section, .calendar-nav .columncontrol.section .image.parbase.section {
+		width: unset;
+	}
+	
+	.content-nav .columncontrol.section .text.parbase.section, .calendar-nav .columncontrol.section .text.parbase.section, .calendar-nav .html.parbase.section, .calendar-nav .calendarpicker.section{
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		height: 120px;
+	}
+	.calendar-nav .columncontrol.section{
+		margin-top: 50px;
+	}
+	.calendar-nav .html.parbase.section{
+		padding-top: 30px;
+	}
+}
+
+.calendarOptions  #iCalendar {
+    background-position: -225px 0;
+}
+
+.calendarOptions  #googleCalendar {
+    background-position: -150px 0;
+}
+
+.calendarOptions  #Outlook {
+    background-position: -75px 0;
+}
+
+.html.parbase.section #calendarButton {
+    background-image: url(/content/dam/commercial-au/neurology/womenwithms/pat/en_au/images/button/button_calendar.jpg);
+	border-radius: 12px;
+	border: unset;
+	height: 37px;
+    width: 174px;
+	margin-left: -11px;
+}
+
+.calendarOptions  .buttonclick {
+    background-image: url(/content/dam/commercial-au/neurology/womenwithms/pat/en_au/images/button/button_calendar_select.png) !important;
+	color: rgba(127, 255, 212, 0);
+	border-radius: 8px;
+}
+
+.image.adaptiveimage.parbase.section img {
+    width: 100%;
+}
+.text.parbase.section .disclaimer-text {
+    color: #78226b;
+    font-family: "Open Sans", Arial, sans-serif !important;
+    text-shadow: antiquewhite !important;
+}
+
+.image.adaptiveimage.parbase.section .img-responsive{
+	margin-bottom: -80px;
+}
+
+
+@media (min-width: 768px){
+	.text.parbase.section .disclaimer-text {
+		font-size: 1.4vw;
+	}
+	
+	.image.adaptiveimage.parbase.section .img-responsive{
+		margin-bottom: -50px;
+	}
+	.content-nav h3, .calendar-nav h3 {
+		font-size: 2vw;
+		width: 105px;
+		margin-left: -23px;
+	}
+	
+	.calendar-nav {
+		margin-top: -50px;
+	}
+	
+	content-nav .columncontrol.section .text.parbase.section {
+		width: 148px;
+	}
+	
+	.content-nav .columncontrol.section .image.parbase.section, .calendar-nav .columncontrol.section .image.parbase.section {
+		width: 131px;
+	}
+	
+	.html.parbase.section #calendarButton {
+		background-image: url(/content/dam/commercial-au/neurology/womenwithms/pat/en_au/images/button/button_calendar.jpg);
+		background-position: -17px;
+		width: 112px;
+		margin-top: 10px;
+		margin-left: -56px;
+	}
+	
+	.calendarpicker.section {
+		padding-top: 43px;
+		width: 295px;
+		margin-left: -209px !important;
+	}
+	
+} 
+
+@media (min-width: 769px){
+	.text.parbase.section .disclaimer-text {
+		font-size: 1.4vw;
+	}
+	
+	.image.adaptiveimage.parbase.section .img-responsive{
+		margin-bottom: -50px;
+	}
+	.content-nav h3, .calendar-nav h3 {
+		font-size: 1.8vw;
+		width: 123px;
+		margin-left: 24px;
+	}
+	
+	.calendar-nav {
+		margin-top: unset;
+	}
+	
+	content-nav .columncontrol.section .text.parbase.section {
+		width: 148px;
+	}
+	
+	.content-nav .columncontrol.section .image.parbase.section, .calendar-nav .columncontrol.section .image.parbase.section {
+		width: 131px;
+	}
+	
+	.html.parbase.section #calendarButton {
+		background-image: url(/content/dam/commercial-au/neurology/womenwithms/pat/en_au/images/button/button_calendar.jpg);
+		background-position: -19px;
+		width: 130px;
+		margin-left: -11px;
+	}
+
+}
+
+@media (min-width: 950px){
+	.html.parbase.section #calendarButton {
+		background-position: -19px;
+		width: 130px;
+		margin-left: 35px;
+		margin-top:unset;
+	}
+}
+
+
+
+@media (min-width: 992px){
+	.text.parbase.section .disclaimer-text {
+		font-size: 1.2vw;
+	}
+	
+	.image.adaptiveimage.parbase.section .img-responsive{
+		margin-bottom: -80px;
+	}
+	.content-nav h3, .calendar-nav h3 {
+		font-size: 1.4;
+		width: 165px;
+	}
+	.calendar-nav {
+		margin-top: unset;
+	}
+
+}
+
+@media (min-width: 1024px){
+	.text.parbase.section .disclaimer-text {
+		font-size: 1.2vw;
+	}
+	
+	.image.adaptiveimage.parbase.section .img-responsive{
+		margin-bottom: -80px;
+	}
+	.content-nav h3, .calendar-nav h3 {
+		font-size: 1.4vw;
+		width: 165px;
+	}
+	.calendar-nav {
+		margin-top: unset;
+	}
+
+}
+
+@media (min-width: 1349px){
+	.text.parbase.section .disclaimer-text {
+		font-size: 0.9vw;
+	}
+	.content-nav h3, .calendar-nav h3 {
+		font-size: 1.2vw;
+		width: 165px;
+	}
+	.html.parbase.section #calendarButton {
+		background-position: -3px;
+		width: 165px;
+		margin-left: 30px;
+		margin-top: -3px;
+	}
+	.thumbnail-block {
+		display: inline-block;
+		width: 363px;
+		vertical-align: top;
+	}
+}
+
+@media (min-width: 1500px){
+	.content-nav h3, .calendar-nav h3 {
+		font-size: 1vw;
+		width: 165px;
+	}
+}

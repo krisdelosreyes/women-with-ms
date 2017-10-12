@@ -1,0 +1,599 @@
+.content div.column-control-column .section div.questions-wrapper div{
+    width: 100%;
+}
+
+
+.content div.existingQuestions .heading, .customQuestions .heading, .fullListQuestions .heading{
+    padding: 0;
+}
+
+.content div.existingQuestions .heading p, .customQuestions .heading p, .fullListQuestions .heading p{
+    background-color: #75226b;
+    font-weight: 600;
+    color: #fff;
+    padding: 13px 5px;
+}
+
+.content div.existingQuestions ol.existingQuestionsSet{
+    margin-top: 0;
+}
+
+.content div.column-control-column .section .questions-wrapper  div .NextSteps, div.column-control-column  .new.section{
+    display: none;
+}
+
+.content div.column-control-column div.image img {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100%;
+}
+
+.content .existingQue, .content .questionssorting{
+    font-size: 1.2em;
+}
+
+.content .existingQue span.question, .content .questionssorting .dragcontent {
+    font-size: 0.8em;
+    font-weight: 500;
+}
+
+.content .existingQuestionsSet .question, .content .questionssorting .dragcontent{
+    width: 70%;
+}
+.content .column-control-column .existingQuestionsSet .question, .content .questionssorting .dragcontent{
+    width: 80%;
+}
+
+.content .existingQue .add, .content .questionssorting .removeItem{
+    border: 1px solid #75226b;
+    padding: 6px;
+    font-size: 11px;
+    font-weight: bolder;
+}
+
+.content .existingQue .add:hover, .content .questionssorting .removeItem:hover{
+    cursor: pointer;
+}
+
+.content .NextSteps {
+    height: 50%;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.customQuestions .buttonclick{
+    margin-right: -4px !important;
+    padding: 7px;
+}
+
+.content  .NextSteps #addToCalendarOption{
+    float: left;
+}
+
+h3.h5.media-heading {
+    color:#75226b;
+    font-size: 20px;
+}
+
+p.article-title {
+    color: #75226b;
+    font-size: 22px;
+    line-height: 8px;
+    margin-bottom: 25px;
+}
+
+.newsTeaser h5 {
+    color: #75226b;
+    font-size: 1.3vw;
+    margin-left: 20%;
+    margin-top: 5%;
+    font-weight: bold;
+}
+
+.publishDate, .newsTeaser p {
+    margin-left: 20%;
+    font-size: 14px;
+}
+
+.newsTeaser img {
+    width: unset;
+    max-width: unset;
+}
+
+.references {
+    margin-top: 50px;
+}
+
+.media .media-body, .text .media-body{
+    line-height: 2 !important;
+    text-align: justify !important;
+    margin-top: -14px !important;
+	display: initial;
+}
+
+@media (max-width: 767px){
+.content .media > .pull-right, .media > .pull-left {
+    display: block !important;
+    float: unset !important;
+	    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+
+.content .one-column > * {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.content .text-callout:before, .content .text-callout:after{
+    content: "";
+    display: none;
+    width: 100%;
+    height: 3px;
+    position: unset
+    left: 0;
+    right: 0;
+    background: none;
+}
+
+.content .text-callout{
+    margin-top: 50px;
+}
+.content .text-callout p {
+   font-weight: 400;
+}
+
+.generic-text-image .text.cq-dd-image{
+	text-align: left;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 736px) {
+    body {
+        font-size: 3.1vw;
+    }
+    .media .media-body {
+        float: left;
+        padding:5px;
+    }
+
+    img.cq-dd-image {
+        width: 100%;
+        float: inherit;
+    }
+
+    .popular-stories {
+        border-top: 1px solid #ccc;
+        color: #75226b;
+        padding-top: 22px;
+        padding-bottom: 8px;
+        margin-top: 50px;
+        background: url('../images/pop-title-bg.png') no-repeat;
+        background-position: 47px 25px;
+    }
+
+    .pop-title {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size:18px;
+    }
+
+    .popular-stories ul {
+        padding-right:1.2em;
+    }
+
+    .popular-stories ul li {
+        list-style: none;
+        border-bottom: 1px dashed #ccc;
+        padding-bottom: 10px;
+    }
+
+    .popular-stories ul li div {
+        display: inline-block;
+        margin-left: 20px;
+        margin-top: -5px;
+        font-size:18px;
+    }
+
+    .text.parbase.section p, .media-body p{
+        padding-left:15px;
+        padding-right:15px;
+        text-align: justify;
+    }
+
+    .text.parbase.section ul {
+        margin-left: 25px;
+        margin-top: -6px;
+    }
+
+   .generic-text-image.textimage.parbase.section {
+        margin-top: -55px;
+        width: 100%;
+        position: relative;    
+    }
+
+    .content .text-callout p {
+        font-size: 5.5vw;
+        font-family: "Gotham 2r", "Gotham A", "Gotham B", Arial, sans-serif;
+        font-style: normal;
+        display: block;
+        margin-bottom: 0;
+        color: #75226b;
+    }
+
+    /*.content .text-callout {
+        margin: -7px 0 !important;
+    }*/
+
+    h3.h5.media-heading {
+        margin-left: 25px;
+    }
+
+    p.article-title {
+        line-height: 22px;
+        margin-bottom: 25px;
+    }
+
+
+	.content .text-callout {
+		line-height: 1.05;
+		padding: 10px;
+		margin: 40px 0;
+		border: none;
+    }
+
+	/*.text.cq-dd-image {
+		position: absolute;
+		color: #75226b;
+		font-size: 4vw;
+		width: 60%;
+		white-space: pre-line;
+		top: 30%;
+		left: 5%;
+		font-weight: 500;
+    }*/
+	
+	.text.cq-dd-image {
+		color: #75226b;
+		font-size: 6vw;
+		width: 90%;
+		/*white-space: pre-line;*/
+		top: 30%;
+		margin-left: auto;
+		margin-right: auto;
+		left: 77%;
+		font-weight: 500;
+	}
+
+    .row.newsTeaser > .col.col-xs-3.col-md-3.col-lg-2 {
+    width: 100%;
+    }
+
+    .row.newsTeaser > .col.col-xs-9.col-md-3.col-lg-2 {
+    width: 100%;
+    }
+
+    .newsTeaser h5 {
+        font-size: 3.5vw;
+        margin-left: unset;
+    }
+
+    .newsTeaser p {
+        margin-left: unset;
+    }
+	
+	.media .media-body, .text .media-body {
+		line-height: 2 !important;
+		text-align: justify !important;
+		/*margin-top: -14px !important;*/
+	}
+	
+	.text-callout p {
+		font-size: 4.5vw !important;
+	}
+	
+	div.textimage div.image {
+		float: right;
+		/* margin-bottom: 8px !important; */
+		width: 200%;
+	}
+	
+	.references .wrapper {
+		max-width: unset;
+		text-align: left;
+	}
+	
+	.divwrapper .button-questions {
+		padding-left: auto;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 20px;
+		width: 60%;
+	}
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 736px) and (orientation : landscape) {
+	.text.parbase.section .disclaimer-text {
+		font-size: 3vw;
+	}
+	
+	.fullListQuestions  .calendarOptions {
+		width: 56%;
+	}
+	
+	.template_genericfullwidth footer{
+		margin-top: 12px;
+	}
+	
+	.text-callout p {
+		font-size: 4.5vw !important;
+	}
+	
+	footer .logo-biogen {
+		margin-top: unset; 
+	}
+	
+	.references .wrapper {
+		max-width: unset;
+		text-align: left;
+	}
+	
+	.divwrapper .button-questions {
+		padding-left: auto;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 20px;
+		width: 60%;
+	}
+
+}
+
+@media only screen and (min-device-width : 414px) and (max-device-width : 768px) and (orientation : landscape) {
+	body {
+        font-size: 2vw;
+    }
+	
+	.text.parbase.section .disclaimer-text {
+		font-size: 1.5vw;
+	}
+	
+	figure.img-responsive {
+		margin-bottom: -39px;
+	}
+	
+	.fullListQuestions  .calendarOptions {
+		width: 40%;
+	}
+	
+	.template_genericfullwidth footer{
+		margin-top: 12px;
+	}
+	
+	footer .logo-biogen {
+		margin-top: unset; 
+	}
+	
+	.text.parbase.section {
+		margin-top: 40px;
+	}
+	
+	.references .wrapper {
+		max-width: unset;
+		text-align: left;
+	}
+	
+	.divwrapper .button-questions {
+		padding-left: auto;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 20px;
+		width: 60%;
+	}
+
+}	
+
+@media only screen and (min-device-width : 414px) and (max-device-width : 768px) and (orientation : portrait) {	
+	.fullListQuestions  .calendarOptions {
+		width: 70%;
+	}
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    body {
+        font-size: 2.5vw;
+		
+    }
+	
+	.text-callout p {
+		font-size: 3.5vw !important;
+	}
+	
+   .text.cq-dd-image {
+        position: absolute;
+        color: #75226b;
+        font-size: 3.5vw;
+        width: 60%;
+        white-space: pre-line;
+        top: 3% !important;
+        left: 5%;
+        font-weight: 500;
+    }
+
+    .page-header-generic .wrapper {
+        margin-top:-35px;
+    }
+
+    .text.parbase.section, .teasertile.base.parbase.section {
+        padding-left:20px;
+        padding-right:20px;
+    }
+
+    .logo-biogen2 {
+        float:none !important;
+        width: 41% !important;
+    }
+	
+	.fullListQuestions .calendarOptions {
+		width: 80%;
+	}
+	
+	.template_genericfullwidth footer{
+		margin-top: -30px;
+	}
+	
+	.references .wrapper {
+		max-width: unset;
+		text-align: left;
+	}
+	
+	.canvas-container  .content .columncontrol.section {
+		margin-bottom: 25px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	
+	.button-questions div.image {
+		float: left;
+		width: 40%;
+		margin-left: 32px;
+		margin-top: 10px;
+	}
+	
+	.media > .pull-right, .media > .pull-left {
+		padding-top: 12px;
+	}
+	
+	.existingQuestionsSet .questionnumber {
+		font-size: 2vw;
+	}
+	
+}
+
+@media (min-width: 990px){
+	.content .text-callout p{
+		font-family: "Gotham 2r", "Gotham A", "Gotham B", Arial, sans-serif;
+		font-style: normal;
+		font-size: 1.9vw;
+		display: block;
+		margin-bottom: 0;
+		color: #75226b;
+    }
+
+    .textcallout section, .teasertile.base.parbase.section, .text.parbase.section, .columncontrol.section, .newsteasercontainer.section {
+        width: 1100px;
+        margin: 0 auto;
+    }
+
+    .generic-text-image.textimage.parbase.section {
+        width: 100%;
+        position: relative;
+    }
+
+    div.textimage div.image {
+        float:none;
+    }
+
+    .generic-text-image.textimage.parbase.section > div.image img {
+        width: 100%;
+        display: block;
+        
+    }
+
+    .main.generic-page.full-width {
+        margin-top: -41px;
+    }
+
+    .text.cq-dd-image {
+        position: absolute;
+        color: #75226b;
+        font-size: 40px;
+        width: 60%;
+        white-space: pre-line;
+        top: 35%;
+        left: 5%;
+        font-weight: 500;
+    }
+
+    /*wowen with ms*/
+
+    .popular-stories {
+        border: 1px solid #ccc;
+        color: #75226b;
+        padding-top: 22px;
+        padding-bottom: 8px;
+        margin-top: 50px;
+        background: url('../images/pop-title-bg.png') no-repeat;
+        background-position: 18px 23px;
+    }
+
+    .pop-title {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size:18px;
+    }
+
+    .popular-stories ul li {
+        list-style: none;
+    }
+
+    .popular-stories ul li div {
+        display: inline-block;
+        margin-left: 20px;
+        line-height: 16px;
+        margin-top: -5px;
+    }
+
+    .button-questions .image.parbase.section {
+    display: inline-block;
+    margin: 20px 45px;
+
+}
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    body {
+		width: 111%;
+	    font-size: 1.5vw;
+    }
+	
+	.content .text-callout p {
+		font-size: 2.4vw !important;
+	}
+	
+	.fullListQuestions  .calendarOptions {
+		width: 56%;
+	}
+	
+	.template_genericfullwidth footer{
+		margin-top: 12px;
+	}
+	
+	.text.parbase.section .disclaimer-text {
+		font-size: 1.5vw;
+	}
+	
+	.text.parbase.section {
+		margin-top: 20px !important;
+	}
+	
+	.references .wrapper {
+		max-width: 75% ;
+		text-align: left;
+	}
+}
+
+@media (min-width: 768px) {
+    .sortablelistgenerator.section {
+        max-width: 1100px;
+        margin: 0 auto;
+
+    }
+}
