@@ -1,3 +1,5 @@
+
+
 .content div.column-control-column .section div.questions-wrapper div{
     width: 100%;
 }
@@ -216,7 +218,7 @@ p.article-title {
    .generic-text-image.textimage.parbase.section {
         margin-top: -55px;
         width: 100%;
-        position: relative;    
+        position: relative;
     }
 
     .content .text-callout p {
@@ -259,7 +261,7 @@ p.article-title {
 		left: 5%;
 		font-weight: 500;
     }*/
-	
+
 	.text.cq-dd-image {
 		color: #75226b;
 		font-size: 6vw;
@@ -288,28 +290,28 @@ p.article-title {
     .newsTeaser p {
         margin-left: unset;
     }
-	
+
 	.media .media-body, .text .media-body {
 		line-height: 2 !important;
 		text-align: justify !important;
 		/*margin-top: -14px !important;*/
 	}
-	
+
 	.text-callout p {
 		font-size: 4.5vw !important;
 	}
-	
+
 	div.textimage div.image {
 		float: right;
 		/* margin-bottom: 8px !important; */
 		width: 200%;
 	}
-	
+
 	.references .wrapper {
 		max-width: unset;
 		text-align: left;
 	}
-	
+
 	.divwrapper .button-questions {
 		padding-left: auto;
 		margin-left: auto;
@@ -323,28 +325,28 @@ p.article-title {
 	.text.parbase.section .disclaimer-text {
 		font-size: 3vw;
 	}
-	
+
 	.fullListQuestions  .calendarOptions {
 		width: 56%;
 	}
-	
+
 	.template_genericfullwidth footer{
 		margin-top: 12px;
 	}
-	
+
 	.text-callout p {
 		font-size: 4.5vw !important;
 	}
-	
+
 	footer .logo-biogen {
-		margin-top: unset; 
+		margin-top: unset;
 	}
-	
+
 	.references .wrapper {
 		max-width: unset;
 		text-align: left;
 	}
-	
+
 	.divwrapper .button-questions {
 		padding-left: auto;
 		margin-left: auto;
@@ -359,36 +361,36 @@ p.article-title {
 	body {
         font-size: 2vw;
     }
-	
+
 	.text.parbase.section .disclaimer-text {
 		font-size: 1.5vw;
 	}
-	
+
 	figure.img-responsive {
 		margin-bottom: -39px;
 	}
-	
+
 	.fullListQuestions  .calendarOptions {
 		width: 40%;
 	}
-	
+
 	.template_genericfullwidth footer{
 		margin-top: 12px;
 	}
-	
+
 	footer .logo-biogen {
-		margin-top: unset; 
+		margin-top: unset;
 	}
-	
+
 	.text.parbase.section {
 		margin-top: 40px;
 	}
-	
+
 	.references .wrapper {
 		max-width: unset;
 		text-align: left;
 	}
-	
+
 	.divwrapper .button-questions {
 		padding-left: auto;
 		margin-left: auto;
@@ -397,9 +399,9 @@ p.article-title {
 		width: 60%;
 	}
 
-}	
+}
 
-@media only screen and (min-device-width : 414px) and (max-device-width : 768px) and (orientation : portrait) {	
+@media only screen and (min-device-width : 414px) and (max-device-width : 768px) and (orientation : portrait) {
 	.fullListQuestions  .calendarOptions {
 		width: 70%;
 	}
@@ -408,13 +410,13 @@ p.article-title {
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
     body {
         font-size: 2.5vw;
-		
+
     }
-	
+
 	.text-callout p {
 		font-size: 3.5vw !important;
 	}
-	
+
    .text.cq-dd-image {
         position: absolute;
         color: #75226b;
@@ -439,41 +441,41 @@ p.article-title {
         float:none !important;
         width: 41% !important;
     }
-	
+
 	.fullListQuestions .calendarOptions {
 		width: 80%;
 	}
-	
+
 	.template_genericfullwidth footer{
 		margin-top: -30px;
 	}
-	
+
 	.references .wrapper {
 		max-width: unset;
 		text-align: left;
 	}
-	
+
 	.canvas-container  .content .columncontrol.section {
 		margin-bottom: 25px;
 		padding-left: 20px;
 		padding-right: 20px;
 	}
-	
+
 	.button-questions div.image {
 		float: left;
 		width: 40%;
 		margin-left: 32px;
 		margin-top: 10px;
 	}
-	
+
 	.media > .pull-right, .media > .pull-left {
 		padding-top: 12px;
 	}
-	
+
 	.existingQuestionsSet .questionnumber {
 		font-size: 2vw;
 	}
-	
+
 }
 
 @media (min-width: 990px){
@@ -503,7 +505,7 @@ p.article-title {
     .generic-text-image.textimage.parbase.section > div.image img {
         width: 100%;
         display: block;
-        
+
     }
 
     .main.generic-page.full-width {
@@ -563,27 +565,27 @@ p.article-title {
 		width: 111%;
 	    font-size: 1.5vw;
     }
-	
+
 	.content .text-callout p {
 		font-size: 2.4vw !important;
 	}
-	
+
 	.fullListQuestions  .calendarOptions {
 		width: 56%;
 	}
-	
+
 	.template_genericfullwidth footer{
 		margin-top: 12px;
 	}
-	
+
 	.text.parbase.section .disclaimer-text {
 		font-size: 1.5vw;
 	}
-	
+
 	.text.parbase.section {
 		margin-top: 20px !important;
 	}
-	
+
 	.references .wrapper {
 		max-width: 75% ;
 		text-align: left;

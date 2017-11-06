@@ -1,7 +1,31 @@
+@font-face {
+ font-family: 'GillSansMT-Bold';
+ src: url('/content/dam/commercial-au/neurology/womenwithms/pat/en_au/fonts/GillSansMT-Bold.ttf') format("truetype");
+}
+
+@font-face {
+ font-family: 'GillSansMT-BoldItalic';
+ src: url('/content/dam/commercial-au/neurology/womenwithms/pat/en_au/fonts/GillSansMT-BoldItalic.ttf') format("truetype");
+}
+
+@font-face {
+ font-family: 'GillSansMT';
+ src: url('/content/dam/commercial-au/neurology/womenwithms/pat/en_au/fonts/GillSansMT.TTF') format("truetype");
+}
+
+@font-face {
+ font-family: 'GillSansMT-Italic';
+ src: url('/content/dam/commercial-au/neurology/womenwithms/pat/en_au/fonts/GillSansMT-Italic.ttf') format("truetype");
+}
+
 
 header {
 	margin: 0;
 	background-color: #75226b;
+}
+
+body, .sortablelistgenerator{
+  font-family: "GillSansMT";
 }
 
 footer .footer-links-container p a {
@@ -45,7 +69,6 @@ footer .footer-links-container p a {
 }
 
 .text-callout p{
-    font-family: "Gotham 2r", "Gotham A", "Gotham B", Arial, sans-serif;
     font-style: normal;
     font-size: 1.9vw !important;
     display: block;
@@ -68,11 +91,11 @@ div.carousel {
     min-width: 100%;
 }
 
-div.bxviewport{
-    width: 100%;
+div.bx-viewport{
+    /*width: 100%;
     overflow: hidden;
-    position: relative;
-    height: 1155px;
+    position: relative;*/
+    height: auto !important;
 }
 
 div.hero span.responsive-options img{
@@ -316,19 +339,19 @@ width: 100% !important;
 	}
 
 	footer {
-		margin-top: -10px;	
+		margin-top: -10px;
 	}
 
 	.logo-biogen {
 		margin-left: -80px;
 	}
-	
+
 	.logo-biogen1{
 	    margin-top: 11px;
 	}
 
 	.logo-biogen2 {
-	 	float:none !important;   
+	 	float:none !important;
     }
 
     .references {
@@ -406,7 +429,7 @@ width: 100% !important;
 	.thumbnail-block {
 	    float: none;
 	}
-	
+
 	.references .wrapper {
     max-width: 100%;
 }
@@ -482,11 +505,11 @@ footer p {
 	br.desktop {
 		display: none;
 	}
-	
+
 	.text.parbase.section .disclaimer-text {
 		font-size: 2.5vw !important;
 	}
-	
+
 	.image.adaptiveimage.parbase.section .img-responsive {
 		margin-bottom: -90px;
 	}
@@ -559,12 +582,12 @@ ul.main-nav-list {
 		width: 100%;
 		left: 11%;
 	}
-	
+
 	br.desktop {
 		display: none;
 	}
-	
-	
+
+
 }
 
 @media (min-width: 1024px) and (max-width: 1366px) {
@@ -608,7 +631,7 @@ ul.main-nav-list {
 	/*footer .logo-biogen{
 		margin-top: -30px;
 	}*/
-	
+
 	.text.parbase.section .disclaimer-text {
 		font-size: 2.7vw;
  	}
@@ -692,7 +715,7 @@ footer .back-to-top .icon-span {
 	.content-nav .columncontrol.section .image.parbase.section, .calendar-nav .columncontrol.section .image.parbase.section {
 		width: unset;
 	}
-	
+
 	.content-nav .columncontrol.section .text.parbase.section, .calendar-nav .columncontrol.section .text.parbase.section, .calendar-nav .html.parbase.section, .calendar-nav .calendarpicker.section{
 		margin-left: auto;
 		margin-right: auto;
@@ -752,7 +775,7 @@ footer .back-to-top .icon-span {
 	.text.parbase.section .disclaimer-text {
 		font-size: 1.4vw;
 	}
-	
+
 	.image.adaptiveimage.parbase.section .img-responsive{
 		margin-bottom: -50px;
 	}
@@ -761,19 +784,19 @@ footer .back-to-top .icon-span {
 		width: 105px;
 		margin-left: -23px;
 	}
-	
+
 	.calendar-nav {
 		margin-top: -50px;
 	}
-	
+
 	content-nav .columncontrol.section .text.parbase.section {
 		width: 148px;
 	}
-	
+
 	.content-nav .columncontrol.section .image.parbase.section, .calendar-nav .columncontrol.section .image.parbase.section {
 		width: 131px;
 	}
-	
+
 	.html.parbase.section #calendarButton {
 		background-image: url(/content/dam/commercial-au/neurology/womenwithms/pat/en_au/images/button/button_calendar.jpg);
 		background-position: -17px;
@@ -781,20 +804,20 @@ footer .back-to-top .icon-span {
 		margin-top: 10px;
 		margin-left: -56px;
 	}
-	
+
 	.calendarpicker.section {
 		padding-top: 43px;
 		width: 295px;
 		margin-left: -209px !important;
 	}
-	
-} 
+
+}
 
 @media (min-width: 769px){
 	.text.parbase.section .disclaimer-text {
 		font-size: 1.4vw;
 	}
-	
+
 	.image.adaptiveimage.parbase.section .img-responsive{
 		margin-bottom: -50px;
 	}
@@ -803,19 +826,19 @@ footer .back-to-top .icon-span {
 		width: 123px;
 		margin-left: 24px;
 	}
-	
+
 	.calendar-nav {
 		margin-top: unset;
 	}
-	
+
 	content-nav .columncontrol.section .text.parbase.section {
 		width: 148px;
 	}
-	
+
 	.content-nav .columncontrol.section .image.parbase.section, .calendar-nav .columncontrol.section .image.parbase.section {
 		width: 131px;
 	}
-	
+
 	.html.parbase.section #calendarButton {
 		background-image: url(/content/dam/commercial-au/neurology/womenwithms/pat/en_au/images/button/button_calendar.jpg);
 		background-position: -19px;
@@ -840,7 +863,7 @@ footer .back-to-top .icon-span {
 	.text.parbase.section .disclaimer-text {
 		font-size: 1.2vw;
 	}
-	
+
 	.image.adaptiveimage.parbase.section .img-responsive{
 		margin-bottom: -80px;
 	}
@@ -858,7 +881,7 @@ footer .back-to-top .icon-span {
 	.text.parbase.section .disclaimer-text {
 		font-size: 1.2vw;
 	}
-	
+
 	.image.adaptiveimage.parbase.section .img-responsive{
 		margin-bottom: -80px;
 	}
