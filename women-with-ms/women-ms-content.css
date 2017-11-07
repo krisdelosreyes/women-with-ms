@@ -57,6 +57,10 @@
     cursor: pointer;
 }
 
+.content .text-callout p{
+
+}
+
 .content .NextSteps {
     height: 50%;
     width: 100%;
