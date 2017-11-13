@@ -31,10 +31,14 @@ body, .sortablelistgenerator{
 footer .footer-links-container p a {
     	color:#5c6770 !important;
     	text-decoration: none !important;
-    }
+}
 
 .logo-options{
 	background-color: #75226b;
+}
+
+.calendarOptions p {
+    background-color: #ffffff;
 }
 
 
@@ -99,7 +103,7 @@ div.bx-viewport{
 }
 
 div.hero span.responsive-options img{
-width: 100% !important;
+  width: 100% !important;
 }
 
 .bx-controls .slider-prev a, .bx-controls .slider-next a {
@@ -134,7 +138,6 @@ width: 100% !important;
 
 
 .mobile-menu-toggle .icon-bar {
-    display: block;
     width: 30px;
     height: 4px;
     margin: 0 auto 5px;
@@ -184,9 +187,305 @@ width: 100% !important;
     display: inline-block;
 }
 
+.content-nav .columncontrol .row{
+  width: 530px;
+}
 
-@media screen and (min-width: 992px){
-	body{
+.calendar-nav .columncontrol .row {
+  width: 620px;
+}
+
+#dropdownMenuButton, #calendarButton {
+  font-size: 14px;
+  color: #fff;
+  letter-spacing: 1.5px;
+  height: 41px;
+  border-radius: 9px;
+}
+
+.nav-selection .text {
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: "GillSansMT-Bold";
+    color: #75216c;
+}
+
+footer {
+  border-bottom: none !important;
+}
+
+footer .back-to-top .icon-span {
+  background: #771d64;
+}
+
+/** component mini navigation **/
+.content-nav .columncontrol.section, .calendar-nav .columncontrol.section {
+  width: 100%;
+  margin: 0 auto;
+  display: inherit;
+  background-color: #dac3d7;
+  height: 130px;
+}
+
+.content-nav .columncontrol.section .image.parbase.section, .calendar-nav .columncontrol.section .image.parbase.section {
+  width: 150px;
+}
+
+.content-nav .columncontrol.section img.cq-dd-image, .calendar-nav .columncontrol.section img.cq-dd-image {
+  width: unset;
+  margin-left: auto;
+    margin-right: auto;
+  padding-top: 20px;
+}
+
+.content-nav .columncontrol.section .text.parbase.section{
+    width: 190px;
+    margin: unset;
+    margin-left: -50px;
+  padding-top: 10px;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.calendar-nav .columncontrol.section .text.parbase.section{
+  width: 170px;
+  margin: unset;
+  margin-left: -20px;
+  padding-top: 5px;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.calendar-nav .html.parbase.section, .calendar-nav .calendarpicker.section{
+    margin: unset;
+    margin-left: 10px;
+    padding-top: 40px;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+.calendar-nav .calendarpicker.section{
+    padding-top: 43px;
+    width: 300px;
+    margin: unset;
+    margin-left: -115px;
+    z-index: 1000;
+    position: sticky;
+}
+
+.calendarOptions  #iCalendar {
+    background-position: -225px 0;
+}
+
+.calendarOptions  #googleCalendar {
+    background-position: -150px 0;
+}
+
+.calendarOptions  #Outlook {
+    background-position: -75px 0;
+}
+
+.calendarOptions  .buttonclick {
+    background-image: url(/content/dam/commercial-au/neurology/womenwithms/pat/en_au/images/button/button_calendar_select.png) !important;
+	color: rgba(127, 255, 212, 0);
+	border-radius: 8px;
+}
+
+
+.dropdownbutton.section {
+    margin-top: 40px;
+    /* text-align: center; */
+}
+
+.dropdown-menu {
+    min-width: 215px;
+    margin: 2px -30px 0;
+    text-align: center;
+    background-color: #dac3d7;
+
+}
+
+.dropdownbutton .dropdown-item {
+  font-weight: bolder !important;
+  color: #86386f !important;
+  font-size: 14px;
+  border-bottom: 1px solid #86386f !important;
+  padding: 10px 11px !important;
+}
+
+a.dropdown-item:last-child {
+    border-bottom: 0 !important;
+}
+
+.content-nav h3, .calendar-nav h3 {
+    color: #781f64;
+    font-size: 20px;
+}
+
+.canvas-container .columncontrol.section {
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.canvas-container .columncontrol.section .row {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1150px;
+  width: 100%;
+}
+
+.canvas-container {
+  width: 100%;
+
+}
+
+.main-nav .wrapper > ul > li > a, .main-nav .wrapper > ul ul{
+  font-family: "GillSansMT";
+  font-size: 13px;
+}
+
+.main-nav .wrapper > ul ul {
+  background: unset;
+
+}
+
+.main-nav {
+  background: #75226b;
+   margin-top: -15px;
+}
+
+.main-nav .wrapper > ul ul {
+  top:71px;
+  padding: unset;
+  padding-left: 1px;
+  padding-right: 1px;
+  padding-bottom: 1px;
+}
+
+.main-nav .wrapper > ul > li{
+  width: 110px;
+  margin-right: 20px;
+}
+
+.main-nav .wrapper > ul > li:last-of-type{
+  width: 130px;
+}
+
+.main-nav .wrapper > ul ul li {
+  margin-left: unset;
+  margin-right: unset;
+}
+.main-nav .wrapper > ul ul li a {
+    line-height: 2;
+}
+.main-nav .wrapper > ul ul li.last {
+    margin-bottom: unset;
+}
+.main-nav .wrapper > ul ul li.last a {
+    padding-bottom: 12px;
+}
+.main-nav .wrapper ul li .over {
+  background: #75226b;
+}
+.main-nav .caret{
+  display: none;
+}
+
+.main-nav .wrapper ul li a, .main-nav .wrapper ul li a:hover {
+  color: #ffffff;
+  background-color: #75226b !important;
+  font-weight: 300;
+  line-height: 1.5;
+  white-space: inherit;
+}
+
+.main-nav .wrapper ul ul li a:hover{
+  background-color:rgba(255, 255, 255,0.5) !important;
+}
+
+.no-touchcapable .main-nav .wrapper ul li.here a{
+  color: #ffffff;
+  /*font-weight : bolder;*/
+}
+
+.no-touchcapable .main-nav .wrapper ul li a:visited{
+  background: #75226b !important;
+}
+
+
+.main-nav .wrapper ul ul{
+  background: #75226b;
+
+}
+
+.main-nav .wrapper ul ul li{
+  border-bottom: #fff 1px solid;
+
+}
+
+.main-nav .wrapper ul ul li a{
+  background: #75226b;
+
+}
+
+.main-nav .wrapper ul ul .over a{
+  background: rgba(92, 103, 112, 0);
+  color: #ffffff;
+}
+
+.no-touchcapable .main-nav .wrapper ul ul li a:hover{
+  background-color:rgba(255, 255, 255,0.5) !important;
+  text-decoration-line: none !important;
+}
+
+.no-touchcapable .main-nav .wrapper ul li.here a{
+  color: #ffffff;
+  /*font-weight : bolder;*/
+  /*border-bottom: 2px solid #fff;*/
+}
+
+ul.main-nav-list {
+    position: absolute;
+    top: 3%;
+    left: 40%;
+    z-index: 1000;
+}
+
+.main-nav .wrapper > ul > li.here > a, .main-nav .wrapper > ul > li.parent-here > a {
+    color: #ffffff;
+    border-bottom: 2px solid #fff;
+}
+
+li.level-1:hover {
+  border-bottom: 2px solid #fff;
+}
+
+li.level-1:last-child {
+  border-bottom: none;
+}
+
+.thumbnail-list {
+  max-width: 1100px;
+  margin:50px auto;
+}
+
+.main-nav .wrapper > ul > li > a:hover, .main-nav .wrapper > ul > li > a:focus {
+    text-decoration: none;
+}
+
+
+.template--generic-one-column header, .template--register header, .template--search-results header {
+  border-bottom: 19px solid #fff;
+}
+
+
+
+@media screen and (min-width: 1366px){
+
+  body{
 		width: 100%;
 	}
 	header{
@@ -194,126 +493,10 @@ width: 100% !important;
 		border-bottom: 12px solid #fff;
 	}
 
-	.canvas-container {
-		width: 100%;
-
-	}
-
-	.main-nav .wrapper > ul ul {
-		background: unset;
-
-	}
-
-	.main-nav {
-		background: #75226b;
-		 margin-top: -15px;
-	}
-	.main-nav .wrapper > ul ul {
-		top:71px;
-		padding: unset;
-		padding-left: 1px;
-		padding-right: 1px;
-		padding-bottom: 1px;
-	}
-	.main-nav .wrapper > ul ul li {
-	    margin-left: unset;
-		margin-right: unset;
-	}
-	.main-nav .wrapper > ul ul li a {
-	    line-height: 3;
-	}
-	.main-nav .wrapper > ul ul li.last {
-	    margin-bottom: unset;
-	}
-	.main-nav .wrapper > ul ul li.last a {
-	    padding-bottom: 12px;
-	}
-	.main-nav .wrapper ul li .over {
-		background: #75226b;
-	}
-	.main-nav .caret{
-		display: none;
-	}
-
-	.main-nav .wrapper ul li a {
-	color: #ffffff;
-	font-weight: 300;
-
-	}
-
-	.template--generic-one-column header, .template--register header, .template--search-results header {
-		border-bottom: 19px solid #fff;
-	}
-
 	.mobile-menu-toggle{
 	display: none;
 	}
 
-	.main-nav .wrapper ul ul li a:hover{
-		background-color:rgba(255, 255, 255,0.5) !important;
-	}
-
-	.no-touchcapable .main-nav .wrapper ul li.here a{
-		color: #ffffff;
-		/*font-weight : bolder;*/
-	}
-
-	.no-touchcapable .main-nav .wrapper ul li a:visited{
-		background: #75226b !important;
-	}
-
-
-	.main-nav .wrapper ul ul{
-		background: #75226b;
-
-	}
-
-	.main-nav .wrapper ul ul li{
-		border-bottom: #fff 1px solid;
-
-	}
-
-
-	.main-nav .wrapper ul ul li a{
-		background: #75226b;
-
-	}
-
-	.main-nav .wrapper ul ul .over a{
-		background: rgba(92, 103, 112, 0);
-		color: #ffffff;
-	}
-
-	.no-touchcapable .main-nav .wrapper ul ul li a:hover{
-		background-color:rgba(255, 255, 255,0.5) !important;
-		text-decoration-line: unset;
-	}
-
-	.no-touchcapable .main-nav .wrapper ul li.here a{
-		color: #ffffff;
-		/*font-weight : bolder;*/
-		/*border-bottom: 2px solid #fff;*/
-	}
-
-	ul.main-nav-list {
-	    position: absolute;
-	    top: 3%;
-	    left: 35%;
-	    z-index: 1000;
-	}
-
-	li.level-1:hover {
-		border-bottom: 2px solid #fff;
-	}
-
-	li.level-1:last-child {
-		border-bottom: none;
-	}
-
-	.thumbnail-list {
-    max-width: 1100px;
-		margin:50px auto;
-	}
 
   .content-nav, .calendar-nav {
     display: inline;
@@ -390,6 +573,38 @@ width: 100% !important;
     	margin-bottom: 50px;
     	font-size: 12px;
     }
+
+}
+
+
+@media  screen and (min-width: 1024px) and (max-width: 1366px) {
+	ul.main-nav-list {
+		left:30%;
+	}
+
+  .mobile-menu-toggle{
+    display: none;
+  }
+}
+
+@media  screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait) {
+	body {
+		width: 111%;
+	}
+
+  .mobile-menu-toggle{
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1023px){
+	ul.main-nav-list {
+    left: 26%;
+  }
+  .mobile-menu-toggle{
+    display: none;
+  }
 }
 
 
@@ -398,6 +613,25 @@ width: 100% !important;
 		background: #75226b;
 		z-index: 1;
 	}
+
+  .main-nav .wrapper > ul > li > a:after, .main-nav .wrapper > ul > li > a:before{
+    display: none;
+  }
+
+  ul.main-nav-list {
+      top: 3%;
+      left: 10px;
+  }
+
+  .main-nav .wrapper > ul > li, .main-nav .wrapper > ul > li:last-of-type{
+      width: auto;
+      margin-right: 0;
+      border-bottom: 1px solid #e5e5e5;
+  }
+
+  .main-nav .wrapper ul li a, .main-nav .wrapper ul li a:hover{
+    text-align: left;
+  }
 
   .columncontrol .col-md-6{
     width: 700px;
@@ -594,10 +828,6 @@ body {
     width: 100%;
     }
 
-ul.main-nav-list {
-	left:26%;
-    }
-
 .thumbnail-list {
 		width:100%;
 		margin:50px auto;
@@ -658,133 +888,42 @@ ul.main-nav-list {
 
 }
 
-@media (min-width: 1024px) and (max-width: 1366px) {
 
-
-	ul.main-nav-list {
-		left:26%;
-	}
-}
-
-@media (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait) {
-
-	body {
-		width: 111%;
-	}
-}
 
 @media only screen and (min-device-width: 320px) and (max-device-height: 854px) {
-	.thumbnail-list {
-		width:100%;
-	}
+  	.thumbnail-list {
+  		width:100%;
+  	}
 
-	/*.thumbnail-block {
-	    display:inline-block;
-	}*/
+  	/*.thumbnail-block {
+  	    display:inline-block;
+  	}*/
 
-	.ms-treatment-description {
-		text-align: center;
-		padding:10px;
-	}
+  	.ms-treatment-description {
+  		text-align: center;
+  		padding:10px;
+  	}
 
-	.ms-treatment-description h3 {
-		color:#75226b;
-		font-size: 18px;
-	}
+  	.ms-treatment-description h3 {
+  		color:#75226b;
+  		font-size: 18px;
+  	}
 
-	.ms-treatment-description p {
-		font-size: 15px;
-	}
+  	.ms-treatment-description p {
+  		font-size: 15px;
+  	}
 
-	/*footer .logo-biogen{
-		margin-top: -30px;
-	}*/
+  	/*footer .logo-biogen{
+  		margin-top: -30px;
+  	}*/
 
-	.text.parbase.section .disclaimer-text {
-		font-size: 2.7vw;
- 	}
+  	.text.parbase.section .disclaimer-text {
+  		font-size: 2.7vw;
+   	}
 
-}
+  }
 
-footer {
-	border-bottom: none !important;
-}
-
-footer .back-to-top .icon-span {
-	background: #771d64;
-}
-
-/** component mini navigation **/
-.content-nav .columncontrol.section, .calendar-nav .columncontrol.section {
-	width: 100%;
-	margin: 0 auto;
-	display: inherit;
-	background-color: #dac3d7;
-	height: 130px;
-}
-
-.content-nav .columncontrol.section .image.parbase.section, .calendar-nav .columncontrol.section .image.parbase.section {
-	width: 150px;
-}
-
-.content-nav .columncontrol.section img.cq-dd-image, .calendar-nav .columncontrol.section img.cq-dd-image {
-	width: unset;
-	margin-left: auto;
-    margin-right: auto;
-	padding-top: 20px;
-}
-
-.content-nav .columncontrol.section .text.parbase.section{
-    width: 240px;
-    margin: unset;
-    margin-left: -70px;
-	padding-top: 10px;
-    margin-right: auto;
-    text-align: center;
-}
-.calendar-nav .columncontrol.section .text.parbase.section{
-    width: 170px;
-    margin: unset;
-    margin-left: -50px;
-	padding-top: 5px;
-    margin-right: auto;
-    text-align: center;
-}
-
-.calendar-nav .html.parbase.section, .calendar-nav .calendarpicker.section{
-    width: 140px;
-    margin: unset;
-    margin-left: -50px;
-    padding-top: 50px;
-    margin-right: auto;
-    text-align: center;
-}
-
-.calendar-nav .calendarpicker.section{
-    padding-top: 43px;
-    width: 300px;
-    margin: unset;
-    margin-left: -115px;
-}
-
-.content-nav h3, .calendar-nav h3 {
-    color: #781f64;
-    font-size: 20px;
-}
-
-.canvas-container .columncontrol.section {
-  margin-bottom: 25px;
-  text-align: center;
-}
-
-.canvas-container .columncontrol.section .row {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1150px; /*auto for less than 500px */
-}
-
-
-@media (max-width: 768px){
+/*@media (max-width: 768px){
 .content-nav .column-control-column ,.calendar-nav .column-control-column {
     background-color: #d7c6d6;
 }
@@ -818,15 +957,6 @@ footer .back-to-top .icon-span {
     background-position: -75px 0;
 }
 
-.html.parbase.section #calendarButton {
-    background-image: url(/content/dam/commercial-au/neurology/womenwithms/pat/en_au/images/button/button_calendar.jpg);
-	border-radius: 12px;
-	border: unset;
-	height: 37px;
-    width: 174px;
-	margin-left: -11px;
-}
-
 .calendarOptions  .buttonclick {
     background-image: url(/content/dam/commercial-au/neurology/womenwithms/pat/en_au/images/button/button_calendar_select.png) !important;
 	color: rgba(127, 255, 212, 0);
@@ -844,11 +974,11 @@ footer .back-to-top .icon-span {
 
 .image.adaptiveimage.parbase.section .img-responsive{
 	margin-bottom: -80px;
-}
+}*/
 
-
-@media (min-width: 768px){
-	.text.parbase.section .disclaimer-text {
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  .text.parbase.section .disclaimer-text {
 		font-size: 1.4vw;
 	}
 
@@ -873,20 +1003,11 @@ footer .back-to-top .icon-span {
 		width: 131px;
 	}
 
-	.html.parbase.section #calendarButton {
-		background-image: url(/content/dam/commercial-au/neurology/womenwithms/pat/en_au/images/button/button_calendar.jpg);
-		background-position: -17px;
-		width: 112px;
-		margin-top: 10px;
-		margin-left: -56px;
-	}
-
 	.calendarpicker.section {
 		padding-top: 43px;
 		width: 295px;
 		margin-left: -209px !important;
 	}
-
 }
 
 @media (min-width: 769px){
@@ -915,22 +1036,10 @@ footer .back-to-top .icon-span {
 		width: 131px;
 	}
 
-	.html.parbase.section #calendarButton {
-		background-image: url(/content/dam/commercial-au/neurology/womenwithms/pat/en_au/images/button/button_calendar.jpg);
-		background-position: -19px;
-		width: 130px;
-		margin-left: -11px;
-	}
-
 }
 
 @media (min-width: 950px){
-	.html.parbase.section #calendarButton {
-		background-position: -19px;
-		width: 130px;
-		margin-left: 35px;
-		margin-top:unset;
-	}
+
 }
 
 
@@ -979,12 +1088,7 @@ footer .back-to-top .icon-span {
 		font-size: 1.2vw;
 		width: 165px;
 	}
-	.html.parbase.section #calendarButton {
-		background-position: -3px;
-		width: 165px;
-		margin-left: 30px;
-		margin-top: -3px;
-	}
+
 	.thumbnail-block {
 		display: inline-block;
 		width: 363px;
@@ -997,4 +1101,161 @@ footer .back-to-top .icon-span {
 		font-size: 1vw;
 		width: 165px;
 	}
+}
+
+/*Mobile devices default*/
+
+@media only screen and (max-width: 736px) and (orientation: landscape){
+
+}
+
+
+@media only screen and (max-width: 412px) and (orientation : portrait) {
+
+}
+
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait */
+@media only screen
+  and (device-width: 414px)
+  and (device-height: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+    .content-nav .columncontrol.section .image.parbase.section, .calendar-nav .columncontrol.section .image.parbase.section{
+      width: auto;
+    }
+
+    .columncontrol .col-md-6 {
+        width: auto;
+        max-width: 100%;
+    }
+
+    .content-nav .columncontrol.section, .calendar-nav .columncontrol.section {
+      height: auto;
+    }
+
+    .content-nav .columncontrol.section .text.parbase.section, .calendar-nav .columncontrol.section .text.parbase.section, .calendar-nav .html.parbase.section, .calendar-nav .calendarpicker.section{
+      height: auto;
+      margin-top: 0;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .canvas-container .columncontrol.section .row {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 100% !important;
+      width: auto !important;
+    }
+
+    .content-nav .columncontrol.section .image.parbase.section, .calendar-nav .columncontrol.section .image.parbase.section{
+      width: auto;
+    }
+
+    .columncontrol .col-md-6 {
+        width: auto;
+        max-width: 100%;
+    }
+
+    .dropdownbutton.section{
+      margin-bottom: 40px;
+    }
+
+    .dropdown-menu {
+      margin: 0;
+    }
+
+}
+
+/* Landscape */
+@media only screen
+  and (device-height: 414px)
+  and (device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+
+    .dropdownbutton.section{
+      margin-bottom: 40px;
+    }
+
+    .content-nav .columncontrol.section .image.parbase.section, .calendar-nav .columncontrol.section .image.parbase.section{
+      width: auto;
+    }
+
+    .columncontrol .col-md-6 {
+        width: auto;
+        max-width: 100%;
+    }
+
+    .content-nav .columncontrol.section, .calendar-nav .columncontrol.section {
+      height: auto;
+    }
+
+    .content-nav .columncontrol.section .text.parbase.section, .calendar-nav .columncontrol.section .text.parbase.section, .calendar-nav .html.parbase.section, .calendar-nav .calendarpicker.section{
+      height: auto;
+      margin-top: 0;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .canvas-container .columncontrol.section .row {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+        width: 500px;
+    }
+
+    .content-nav .columncontrol.section .image.parbase.section, .calendar-nav .columncontrol.section .image.parbase.section{
+      width: auto;
+    }
+
+    .columncontrol .col-md-6 {
+        width: auto;
+        max-width: 100%;
+    }
+
+    .dropdown-menu {
+      margin: 0;
+    }
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (device-width: 320px)
+  and (device-height: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+
+}
+
+/* Portrait */
+@media only screen
+  and (device-width: 320px)
+  and (device-height: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+
+
+    .content-nav .columncontrol.section, .calendar-nav .columncontrol.section{
+        height: 0;
+    }
+
+
+}
+
+/* Landscape */
+@media only screen
+  and (device-width: 320px)
+  and (device-height: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+
+
 }
