@@ -35,8 +35,9 @@
 }
 
 .content .existingQue span.question, .content .questionssorting .dragcontent {
-    font-size: 0.8em;
+    font-size: 1.1em;
     font-weight: 500;
+    text-align: left;
 }
 
 .content .existingQuestionsSet .question, .content .questionssorting .dragcontent{
@@ -55,10 +56,6 @@
 
 .content .existingQue .add:hover, .content .questionssorting .removeItem:hover{
     cursor: pointer;
-}
-
-.content .text-callout p{
-
 }
 
 .content .NextSteps {
@@ -114,11 +111,28 @@ p.article-title {
     margin-top: 50px;
 }
 
+body {
+    font-size: 1.2em;
+    font-weight: 100;
+    font-style: normal;
+}
+
 .media .media-body, .text .media-body{
-    line-height: 2 !important;
-    text-align: justify !important;
-    margin-top: -14px !important;
-	display: initial;
+  line-height: 1.5 !important;
+  text-align: left !important;
+  margin-top: -14px !important;
+  display: initial;
+}
+
+.mini-navigation {
+  border: 1px solid #5c6770;
+  margin-top: 55px;
+  width: 310px;
+}
+
+.promopodenhanced.section {
+    max-width: 100% !important;
+    margin-top: 15px;
 }
 
 @media (max-width: 767px){
@@ -227,7 +241,6 @@ p.article-title {
 
     .content .text-callout p {
         font-size: 5.5vw;
-        font-family: "Gotham 2r", "Gotham A", "Gotham B", Arial, sans-serif;
         font-style: normal;
         display: block;
         margin-bottom: 0;
@@ -298,7 +311,6 @@ p.article-title {
 	.media .media-body, .text .media-body {
 		line-height: 2 !important;
 		text-align: justify !important;
-		/*margin-top: -14px !important;*/
 	}
 
 	.text-callout p {
@@ -482,19 +494,38 @@ p.article-title {
 
 }
 
-@media (min-width: 990px){
+@media (min-width: 992px){
 	.content .text-callout p{
-		font-family: "Gotham 2r", "Gotham A", "Gotham B", Arial, sans-serif;
 		font-style: normal;
-		font-size: 1.9vw;
+		font-size: 2em;
 		display: block;
 		margin-bottom: 0;
 		color: #75226b;
     }
 
+    .teasertile .media-body p.teaser-first {
+      margin-top: -25px;
+    }
+
+    .teasertile {
+      font-size: 1.5em;
+      font-weight: 100;
+    }
+
+    .teasertile .media {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
+    .content .existingQue span.question, .content .questionssorting .dragcontent {
+      font-size: 1.3em;
+      font-weight: 500;
+    }
+
     .textcallout section, .teasertile.base.parbase.section, .text.parbase.section, .columncontrol.section, .newsteasercontainer.section {
-        width: 1100px;
-        margin: 0 auto;
+      max-width: 1100px;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .generic-text-image.textimage.parbase.section {
@@ -517,14 +548,17 @@ p.article-title {
     }
 
     .text.cq-dd-image {
-        position: absolute;
-        color: #75226b;
-        font-size: 40px;
-        width: 60%;
-        white-space: pre-line;
-        top: 35%;
-        left: 5%;
-        font-weight: 500;
+      color: #75226b;
+      font-size: 3.5em;
+      width: 60%;
+      white-space: pre-line;
+      top: 33px;
+      left: 5%;
+      font-weight: 500;
+      position: absolute;
+      top: 62%;
+      left: 35%;
+      transform: translate(-50%, -50%);
     }
 
     /*wowen with ms*/
@@ -557,9 +591,43 @@ p.article-title {
         margin-top: -5px;
     }
 
-    .button-questions .image.parbase.section {
+  .button-questions .image.parbase.section {
     display: inline-block;
     margin: 20px 45px;
+  }
+
+
+  .mini-navigation .container-div2 {
+    width: 700px;
+  }
+
+  .mini-navigation .col-md-4 {
+    width: auto;
+    text-align: left;
+  }
+
+  .mini-navigation .caption2 p {
+    font-size: 1.3em;
+    width: 162px;
+  }
+
+  .mini-navigation .imageHolder {
+    width: 110px;
+    margin-bottom: 0;
+  }
+
+  .mini-navigation .rowCentering {
+    display: inline-block;
+    flex-wrap: wrap;
+  }
+
+  .mini-navigation .fancy2 span:before,.mini-navigation .fancy2 span:after {
+      width: 40px;
+  }
+
+  .mini-navigation .customHeading{
+    margin-bottom: 20px !important;
+  }
 
 }
 

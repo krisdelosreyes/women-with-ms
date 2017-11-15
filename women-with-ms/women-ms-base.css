@@ -177,7 +177,7 @@ div.hero span.responsive-options img{
   text-align: center;
 }
 
-.ms-treatment-description h3 {
+.ms-treatment-description h3, .video-title {
     color: #75226b;
     font-size: 1.4em;
     font-family: GillSansMT-Bold;
@@ -370,7 +370,7 @@ a.dropdown-item:last-child {
 
 .main-nav .wrapper > ul > li > a, .main-nav .wrapper > ul ul{
   font-family: "GillSansMT";
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .main-nav .wrapper > ul ul {
@@ -499,10 +499,34 @@ li.level-1:last-child {
   margin:50px auto;
 }
 
+video{
+  max-width: 100%;
+  width: 630px;
+  float: left;
+  height: auto;
+  border: 4px solid #75216c;
+}
+
+.video-content {
+  text-align: left;
+  margin-top: 25%;
+}
+
+p.video-heading {
+  margin-bottom: 40px;
+}
+
+.video-description p {
+  margin-bottom: 1px;
+}
+
+.popular-stories {
+  margin-top: 60px;
+}
+
 .main-nav .wrapper > ul > li > a:hover, .main-nav .wrapper > ul > li > a:focus {
     text-decoration: none;
 }
-
 
 .template--generic-one-column header, .template--register header, .template--search-results header {
   border-bottom: 19px solid #fff;
@@ -523,11 +547,11 @@ li.level-1:last-child {
     bottom: 45px !important;
   }
 
-  .ms-treatment-description h3 {
+  .ms-treatment-description h3{
     font-size: 1.7em;
   }
 
-  .ms-treatment-description p {
+  .ms-treatment-description p, .video-title, .video-description {
       font-size: 1.5em;
   }
 
@@ -555,7 +579,23 @@ li.level-1:last-child {
   .promopodenhanced .small-caption {
     margin-left: 12px;
   }
+}
 
+@media only screen and (max-width: 768px){
+  .video-player .col-md-8{
+    width: 100%;
+  }
+
+  video {
+    float: none;
+    width: 100%
+  }
+
+  .video-content {
+    margin-top: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
 }
 
 @media only screen and (max-width: 768px) and (min-width: 481px) and (orientation: portrait){
@@ -623,7 +663,7 @@ li.level-1:last-child {
   }
 
   #dropdownMenuButton, #calendarButton{
-    font-size: 1.2em;
+    font-size: 1em;
   }
 
   .dropdownbutton .dropdown-item{
@@ -634,8 +674,11 @@ li.level-1:last-child {
     font-size: 1.4em;
   }
 
-  .ms-treatment-description p {
+  .ms-treatment-description p, .video-title, .video-description  {
       font-size: 1.2em;
+  }
+  .video-content {
+    margin-top: 0;
   }
 }
 
@@ -646,6 +689,15 @@ li.level-1:last-child {
 
   .text-callout p{
     font-size: 2.3em;
+  }
+
+  .video-content {
+    margin-left: 0;
+    margin-top: 25%;
+  }
+
+  video {
+    float: none;
   }
 }
 
@@ -753,6 +805,15 @@ li.level-1:last-child {
     	margin-bottom: 50px;
     	font-size: 12px;
     }
+
+    .video-content {
+      margin-left: -60px;
+    }
+
+    video {
+      float: left;
+    }
+
 
 }
 
@@ -943,7 +1004,7 @@ and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait) {
     font-size: 1.6em;
   }
 
-  .ms-treatment-description p {
+  .ms-treatment-description p, .video-title, .video-description  {
       font-size: 1.5em;
   }
 
@@ -1111,7 +1172,7 @@ body {
   		font-size: 18px;
   	}
 
-  	.ms-treatment-description p {
+  	.ms-treatment-description p, .video-title, .video-description  {
   		font-size: 15px;
   	}
 
