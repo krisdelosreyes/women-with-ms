@@ -568,7 +568,7 @@ p.video-heading {
   }
 
   .fancy span:before, .fancy span:after{
-    width: 100%;
+    width: 24vw !important;
   }
 
   .promopodenhanced .small-caption p {
@@ -615,6 +615,7 @@ p.video-heading {
       font-size: 3vw;
       line-height: 1;
       color: #78226b;
+      margin-top: 5px;
   }
 
   .footer-image .centered {
@@ -643,6 +644,7 @@ p.video-heading {
       font-size: 1.4vw;
       line-height: 0.7;
       color: #78226b;
+      margin-top: 5px;
   }
 
   .footer-image .centered {
@@ -1060,7 +1062,7 @@ footer .siteMapFooter-links {
 
 
 
-@media (min-width: 320px) and (max-width: 736px) and (orientation : portrait) {
+@media (min-width: 320px) and (max-width: 768px) and (orientation : portrait) {
 	br.desktop {
 		display: none;
 	}
@@ -1255,9 +1257,10 @@ body {
 }
 
 .footer-image .centered p {
-    font-size: 3vw;
+    font-size: 4vw;
     line-height: 1;
     color: #78226b;
+    margin-top: 5px;
 }
 
 .footer-image .centered {
