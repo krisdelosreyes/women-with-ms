@@ -35,6 +35,9 @@
 
 .content .existingQue, .content .questionssorting{
     font-size: 1.1em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0;
 }
 
 .content .existingQue span.question, .content .questionssorting .dragcontent {
@@ -176,7 +179,37 @@ body {
     margin-top: 15px;
 }
 
+.popular-stories-landing .withDescription .caption .customh4{
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: 0;
+}
 
+.popular-stories-landing .withDescription .caption {
+    padding-top: 20px;
+}
+
+.popular-stories-landing .withDescription .caption h1{
+  font-family: GillSansMT-Bold;
+  font-size: 1.7em;
+  margin-bottom: 5px;
+}
+
+.popular-stories-landing .container-div3 .rowCentering.withdescsafari{
+  display: flex;
+}
+
+.popular-stories-landing .withdescsafari #desktopWithDescription1 .imageHolder{
+    display: flex;
+}
+
+.popular-stories-landing .withdescsafari #desktopWithDescription1 {
+    width: 30%;
+}
+
+.popular-stories-landing .withdescsafari #desktopWithDescription2 {
+    width: 70%;
+}
 
 @media (min-width: 992px){
   .main.generic-page.full-width {
@@ -398,7 +431,6 @@ body {
   }
 
   .questions-mininav .mini-navigation .imageHolder {
-    width: 110px;
     margin-bottom: 0;
   }
 
@@ -443,20 +475,78 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
-}
 
-@media (max-width: 767px){
-  .content .media > .pull-right, .media > .pull-left {
-    display: block !important;
-    float: unset !important;
-	    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+  .questions-mininav .promopodenhanced .small-caption p{
+    font-size: 1.1em;
+    width: auto;
   }
-}
 
+  .questions-mininav .promopodenhanced .centerimg,.questions-mininav #linkWork,.questions-mininav #verticalWork{
+    width: auto !important;
+  }
+
+  .container-div3 .rowCentering.withdescsafari{
+    display: flex !important;
+  }
+
+  .withDescription .caption {
+    padding-top: 0;
+  }
+
+  .withDescription .caption h1{
+    margin-bottom: 0;
+  }
+
+  .withDescription .caption .customh4 {
+    font-size: 0.8em;
+  }
+
+  .withDescription .caption h1 {
+    font-size: 1.5em;
+  }
+
+  .popular-stories-landing .withDescription .caption{
+    padding-top: 0
+  }
+
+  .popular-stories-landing .withdescsafari #desktopWithDescription1 {
+      width: 40%;
+  }
+
+  .popular-stories-landing .withdescsafari #desktopWithDescription2 {
+      width: 60%;
+  }
+
+  .popular-stories-landing .withdescsafari #desktopWithDescription1,
+  .popular-stories-landing .withdescsafari #desktopWithDescription2,
+  .mini-navigation #desktopVertical1,
+  .mini-navigation #desktopVertical2{
+    display: flex !important;
+  }
+
+  .popular-stories-landing .withdescsafari .centerimg .thumbnail,
+  .withdescsafari .small-caption,.withdesctitle, .mini-navigation #verticalWork, .mini-navigation .small-caption{
+    display: none !important;
+  }
+
+}
 
 @media (min-width: 320px) and (max-width: 767px) {
+    header .fixed {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    .content .media > .pull-right, .media > .pull-left {
+      display: block !important;
+      float: unset !important;
+        width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
     .media .media-body {
         float: left;
         padding:5px;
@@ -517,7 +607,7 @@ body {
     }
 
    .generic-text-image.textimage.parbase.section {
-        margin-top: -55px;
+        margin-top: -12px;
         width: 100%;
         position: relative;
     }
@@ -618,6 +708,14 @@ body {
 		width: 60%;
 	}
 
+  .questions-mininav .mini-navigation{
+    width: 420px;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+
   .questions-mininav .mini-navigation .container-div2 {
     width: auto;
     padding-bottom: 10px;
@@ -640,8 +738,8 @@ body {
   }
 
   .questions-mininav .mini-navigation .rowCentering {
-    /*display: inline-block;*/
-    justify-content: left;
+    display: flex;
+    justify-content: center;
     flex-wrap: wrap;
   }
 
@@ -651,6 +749,33 @@ body {
 
   .questions-mininav .mini-navigation .customHeading{
     margin-bottom: 20px !important;
+  }
+
+  .questions-mininav .promopodenhanced .small-caption p{
+    font-size: 1.1em;
+  }
+
+  .questions-mininav .promopodenhanced .centerimg, .questions-mininav #linkWork, .questions-mininav #verticalWork{
+    width: auto !important;
+    float: none;
+  }
+
+  .questions-mininav .small-caption{
+    text-align: left;
+    width: auto;
+  }
+
+  .questions-mininav .button-questions{
+    max-width: 100%;
+    width: auto;
+  }
+
+  .questions-mininav .button-questions .image {
+    width: auto;
+    max-width: 100%;
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: 25px;
   }
 
   .existingQuestionsSet .questionnumber {
@@ -681,201 +806,59 @@ body {
     margin-right: auto;
   }
 
-  .questions-mininav .mini-navigation{
-    width: auto;
-  }
-
   .promopodenhanced.section{
     max-width: 24em !important;
   }
 
-}
+  .popular-stories-landing {
+    margin-top: 50px;
+  }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 736px) and (orientation : landscape) {
-	.text.parbase.section .disclaimer-text {
-		font-size: 3vw;
-	}
+  .popular-stories-landing .withdescsafari #desktopWithDescription1,.popular-stories-landing .withdescsafari #desktopWithDescription2{
+    display: flex !important;
+  }
 
-	.fullListQuestions  .calendarOptions {
-		width: 56%;
-	}
+  .popular-stories-landing .withdescsafari .centerimg .thumbnail, .withdescsafari .small-caption,   .withdesctitle{
+    display: none !important;
+  }
 
-	.template_genericfullwidth footer{
-		margin-top: 12px;
-	}
+  .popular-stories-landing .container-div3 .rowCentering .withdescsafari{
+    display: flex;
+    max-width: 100%;
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-	.text-callout p {
-		font-size: 4.5vw !important;
-	}
+  .popular-stories-landing .withdescsafari #desktopWithDescription1 {
+    width: auto;
+    max-width: 100%;
+  }
 
-	footer .logo-biogen {
-		margin-top: unset;
-	}
+  .popular-stories-landing .withdescsafari #desktopWithDescription2 {
+    width: auto;
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
 
-	.references .wrapper {
-		max-width: unset;
-		text-align: left;
-	}
+  .popular-stories-landing .withdescsafari .withDescription .caption {
+      text-align: center;
+  }
 
-	.divwrapper .button-questions {
-		padding-left: auto;
-		margin-left: auto;
-		margin-right: auto;
-		padding-top: 20px;
-		width: 60%;
-	}
+  .popular-stories-landing .withDescription .caption{
+    padding-top: 0
+  }
 
-}
+  .popular-stories-landing .withDescription .caption h1 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    line-height: 1;
+  }
 
-@media only screen and (min-device-width : 414px) and (max-device-width : 768px) and (orientation : landscape) {
-	body {
-        font-size: 2vw;
-    }
+  .popular-stories-landing .withDescription .caption .customh4 {
+    font-size: 0.9em;
+    font-weight: 400;
+    line-height: 1.2em;
+  }
 
-	.text.parbase.section .disclaimer-text {
-		font-size: 1.5vw;
-	}
-
-	figure.img-responsive {
-		margin-bottom: -39px;
-	}
-
-	.fullListQuestions  .calendarOptions {
-		width: 40%;
-	}
-
-	.template_genericfullwidth footer{
-		margin-top: 12px;
-	}
-
-	footer .logo-biogen {
-		margin-top: unset;
-	}
-
-	.text.parbase.section {
-		margin-top: 40px;
-	}
-
-	.references .wrapper {
-		max-width: unset;
-		text-align: left;
-	}
-
-	.divwrapper .button-questions {
-		padding-left: auto;
-		margin-left: auto;
-		margin-right: auto;
-		padding-top: 20px;
-		width: 60%;
-	}
-
-}
-
-@media only screen and (min-device-width : 414px) and (max-device-width : 768px) and (orientation : portrait) {
-	.fullListQuestions  .calendarOptions {
-		width: 70%;
-	}
-}
-
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
-    body {
-        font-size: 2.5vw;
-
-    }
-
-	.text-callout p {
-		font-size: 3.5vw !important;
-	}
-
-   .text.cq-dd-image {
-        position: absolute;
-        color: #75226b;
-        font-size: 3.5vw;
-        width: 60%;
-        white-space: pre-line;
-        top: 3% !important;
-        left: 5%;
-        font-weight: 500;
-    }
-
-    .page-header-generic .wrapper {
-        margin-top:-35px;
-    }
-
-    .text.parbase.section, .teasertile.base.parbase.section {
-        padding-left:20px;
-        padding-right:20px;
-    }
-
-    .logo-biogen2 {
-        float:none !important;
-        width: 41% !important;
-    }
-
-	.fullListQuestions .calendarOptions {
-		width: 80%;
-	}
-
-	.template_genericfullwidth footer{
-		margin-top: -30px;
-	}
-
-	.references .wrapper {
-		max-width: unset;
-		text-align: left;
-	}
-
-	.canvas-container  .content .columncontrol.section {
-		margin-bottom: 25px;
-		padding-left: 20px;
-		padding-right: 20px;
-	}
-
-	.button-questions div.image {
-		float: left;
-		width: 40%;
-		margin-left: 32px;
-		margin-top: 10px;
-	}
-
-	.media > .pull-right, .media > .pull-left {
-		padding-top: 12px;
-	}
-
-	.existingQuestionsSet .questionnumber {
-		font-size: 2vw;
-	}
-
-}
-
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
-    body {
-		width: 111%;
-	    font-size: 1.7em;
-    }
-
-	.content .text-callout p {
-		font-size: 2.4vw !important;
-	}
-
-	.fullListQuestions  .calendarOptions {
-		width: 56%;
-	}
-
-	.template_genericfullwidth footer{
-		margin-top: 12px;
-	}
-
-	.text.parbase.section .disclaimer-text {
-		font-size: 1.5vw;
-	}
-
-	.text.parbase.section {
-		margin-top: 20px !important;
-	}
-
-	.references .wrapper {
-		max-width: 75% ;
-		text-align: left;
-	}
 }
