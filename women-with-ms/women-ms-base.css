@@ -18,13 +18,18 @@
  src: url('/content/dam/commercial-au/neurology/womenwithms/pat/en_au/fonts/GillSansMT-Italic.ttf') format("truetype");
 }
 
+@font-face {
+ font-family: 'MinionPro-Regular';
+ src: url('/content/dam/commercial-au/neurology/womenwithms/pat/en_au/fonts/MinionPro-Regular.otf') format("opentype");
+}
+
 
 header {
 	margin: 0;
 	background-color: #75226b;
 }
 
-body, .sortablelistgenerator{
+body, .sortablelistgenerator, footer{
   font-family: "GillSansMT" !important;
 }
 
@@ -91,7 +96,7 @@ footer .footer-links-container p a {
 
 
 div.carousel {
-    margin-top: 5px;
+    margin-top: 3px;
     margin-bottom: 0;
 }
 
@@ -544,7 +549,7 @@ p.video-heading {
   border-bottom: 19px solid #fff;
 }
 
-.promopodenhanced .imageHolderHorizontal .caption p::after {
+.popular-stories .promopodenhanced .imageHolderHorizontal .caption p:after,.popular-stories .promopodenhanced .small-caption p:after {
   content: ">";
   margin-top: 5px;
   font-size: medium;
@@ -552,9 +557,23 @@ p.video-heading {
   position: absolute;
 }
 
+.popular-stories .imageHolder img{
+  width: auto !important;
+}
+
+.popular-stories .imageHolder .caption {
+  margin-left: 17px;
+  margin-right: auto;
+  max-width: 185px;
+}
+
+
+.siteMapFooter-links{
+  display: none !important;
+}
+
 
 /*text resizing*/
-
 @media screen and (min-width: 500px){
   .hero .caption p, .hero .caption h3, .carousel h3.sub-title-carousel {
     font-size: 1.21em;
@@ -602,12 +621,26 @@ p.video-heading {
   }
 }
 
+/*text resizing*/
+
 @media only screen and (max-width: 768px){
   header .fixed {
-    position: relative;
+    /*position: relative;*/
     top: 0;
     width: 100%;
     z-index: 1000;
+  }
+
+  body {
+    font-size: 14px;
+  }
+
+  .popular-stories .promopodenhanced.section {
+    width: 90% !important;
+  }
+
+  .popular-stories .promopodenhanced .small-caption p {
+    font-size: 1.6em;
   }
 
   .video-player .col-md-8{
@@ -623,15 +656,47 @@ p.video-heading {
     margin-left: 5px;
     margin-right: 5px;
   }
+  .small-caption {
+    width: auto !important;
+  }
+
+  .popular-stories .promopodenhanced .centerimg,.popular-stories .promopodenhanced .mobile{
+    margin-right: 0 !important;
+    margin-left: 0;
+    width: 41% !important;
+    display: block;
+  }
+
+  .promopodenhanced #linkWork {
+    width: 40vw !important;
+    display: inline-block !important;
+  }
+
+  .video-content {
+    margin-top: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: left;
+  }
+
+  .video-player .col-sm-4{
+    width: 100%;
+  }
+
+  .popular-stories a:hover{
+    color: #86386f;
+  }
+
 }
 
 @media only screen and (max-width: 768px) and (min-width: 481px) and (orientation: portrait){
   header .fixed {
-    position: relative;
+    position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
   }
+
 
   .carousel h3.sub-title-carousel {
     font-size: 1.21em !important;
@@ -656,43 +721,25 @@ p.video-heading {
       position: absolute;
       top: 79%;
       left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
       width: 100%;
-  }
-}
-
-@media only screen and (max-width: 768px) and (min-width: 320px) {
-  .small-caption {
-    width: auto !important;
-  }
-
-  .promopodenhanced .centerimg{
-    margin-right: 0 !important;
-    margin-left: 0;
-    width: 41% !important;
-    display: block;
-  }
-
-  .promopodenhanced #linkWork {
-    width: 40vw !important;
-    display: inline-block !important;
-  }
-
-  .video-content {
-    margin-top: 0;
-    margin-left: 5px;
-    margin-right: 5px;
-    text-align: left;
-  }
-
-  .video-player .col-sm-4{
-    width: 100%;
   }
 }
 
 @media screen and (min-width: 768px){
   .hero .caption p, .hero .caption h3 {
     font-size: 1.24em ;
+  }
+
+  header .fixed {
+    position: relative;
+    border-bottom: 2px solid #edeeef;
+  }
+
+  div.carousel {
+    margin-bottom: 0;
   }
 
   .footer-image .desktop-image {
@@ -704,7 +751,7 @@ p.video-heading {
   }
 
   .footer-image .centered p {
-      font-size: 1.3vw;
+      font-size: 13px;
       line-height: 0.7;
       color: #78226b;
       margin-top: 5px;
@@ -714,6 +761,8 @@ p.video-heading {
       position: absolute;
       top: 85%;
       left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
       width: 100%;
   }
@@ -745,12 +794,71 @@ p.video-heading {
   .video-content {
     margin-top: 0;
   }
+
+  .text.parbase.section .disclaimer-text {
+		font-size: 1.4vw;
+	}
+
+	.image.adaptiveimage.parbase.section .img-responsive{
+		margin-bottom: -50px;
+	}
+	.content-nav h3, .calendar-nav h3 {
+		font-size: 1.8vw;
+		width: 123px;
+		margin-left: 24px;
+	}
+
+	.calendar-nav {
+		margin-top: unset;
+	}
+
+	content-nav .columncontrol.section .text.parbase.section {
+		width: 148px;
+	}
+
+	.content-nav .columncontrol.section .image.parbase.section, .calendar-nav .columncontrol.section .image.parbase.section {
+		width: 131px;
+	}
+
+  footer .footer-links-container .logo-biogen{
+    position: absolute;
+    float: left;
+    margin-top: 25px;
+    margin-left: 3vw !important;
+  }
+
+  footer .footer-links-container .footer-info {
+    max-width: 100% !important;
+    font-size: 12px;
+    margin-left: 20vw !important;
+  }
+
+  footer .row {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer-info p {
+    text-align: left;
+  }
 }
 
 @media screen and (min-width: 992px){
   .hero .caption p, .hero .caption h3 {
     font-size: 1.4em ;
   }
+
+  header{
+    border-bottom: 12px solid #fff;
+  }
+
+  .footer-image .centered p {
+      font-size: 14px;
+      line-height: 0.7;
+      color: #78226b;
+      margin-top: 5px;
+  }
+
 
   .text-callout p{
     font-size: 2.3em;
@@ -774,6 +882,100 @@ p.video-heading {
   .carousel .wrapper {
     position: relative;
     max-width: 1400px;
+  }
+
+  .text.parbase.section .disclaimer-text {
+    font-size: 1.2vw;
+  }
+
+  .image.adaptiveimage.parbase.section .img-responsive{
+    margin-bottom: -80px;
+  }
+
+  .content-nav h3, .calendar-nav h3 {
+    font-size: 1.4;
+    width: 165px;
+  }
+
+  .calendar-nav {
+    margin-top: unset;
+  }
+
+  .thumbnail-block {
+      display: inline-block;
+      width: 322px;
+      vertical-align: top;
+  }
+
+  .thumbnail-list {
+    max-width: 992px;
+  }
+
+  .ms-treatment-description p {
+    width: auto;
+  }
+
+}
+
+@media screen and (min-width: 1024px){
+	.text.parbase.section .disclaimer-text {
+		font-size: 1.2vw;
+	}
+
+  .footer-image .centered p {
+      font-size: 16px;
+      line-height: 0.7;
+      color: #78226b;
+      margin-top: 5px;
+  }
+
+	.image.adaptiveimage.parbase.section .img-responsive{
+		margin-bottom: -80px;
+	}
+
+	.content-nav h3, .calendar-nav h3 {
+		font-size: 1.4vw;
+		width: 165px;
+	}
+	.calendar-nav {
+		margin-top: unset;
+	}
+
+  .thumbnail-block {
+      display: inline-block;
+      width: 327px;
+      vertical-align: top;
+  }
+
+  .thumbnail-list {
+    max-width: 992px;
+  }
+  .calendar-nav .calendarpicker.section {
+      margin-left: -145px;
+  }
+
+}
+
+@media screen and (min-width: 1349px){
+	.text.parbase.section .disclaimer-text {
+		font-size: 0.9vw;
+	}
+	.content-nav h3, .calendar-nav h3 {
+		font-size: 1.2vw;
+		width: 165px;
+	}
+
+	.thumbnail-block {
+		display: inline-block;
+		width: 363px;
+		vertical-align: top;
+	}
+  .thumbnail-list {
+    max-width: 1100px;
+  }
+
+  footer .footer-links-container .logo-biogen {
+    margin-top: 20px;
   }
 }
 
@@ -843,14 +1045,14 @@ p.video-heading {
 	}
 
 	footer .footer-links-container .logo-biogen{
-		width: auto;
 		position: absolute;
+    margin-top: 0;
+    margin-left: -80px !important;
 	}
 
 	footer .footer-links-container .footer-info {
 		max-width: 100% !important;
 		font-size: 12px;
-		margin-left: 70px;
 	}
 
 	footer p{
@@ -865,9 +1067,6 @@ p.video-heading {
 		margin-top: -10px;
 	}
 
-	.logo-biogen {
-		margin-left: -80px;
-	}
 
 	.logo-biogen1{
 	    margin-top: 11px;
@@ -891,10 +1090,15 @@ p.video-heading {
     }
 
     footer .footer-links-container .footer-info {
-    margin-left: 90px !important;
-  }
+      margin-left: 5vw !important;
+    }
+}
 
-
+@media only screen and (min-width: 1500px){
+	.content-nav h3, .calendar-nav h3 {
+		font-size: 1vw;
+		width: 165px;
+	}
 }
 
 @media  screen and (min-width: 1024px) and (max-width: 1365px) {
@@ -915,7 +1119,6 @@ p.video-heading {
   footer .footer-links-container .footer-info {
     max-width: 100% !important;
     font-size: 12px;
-    margin-left: 230px !important;
   }
 
   footer .footer-links-container .logo-biogen {
@@ -1145,25 +1348,51 @@ and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait) {
 
 }
 
+@media (max-width: 414px){
+  .hero .caption p {
+      display: block;
+      font-size: 4.9vw !important;
+  }
+  .text-callout p {
+    font-size: 6vw !important;
+  }
+}
+
 @media (max-width: 991px) and (min-width: 768px){
 	.hidden-sm {
 		display: none !important;
 	}
 
+  footer .wrapper{
+    max-width: 992px;
+  }
+
+  footer .row {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  footer .footer-links-container .logo-biogen {
+    margin-top: 25px;
+  }
+
+  footer .footer-links-container .footer-info {
+    margin-left: 20vw !important;
+  }
+
+  footer .footer-links-container .logo-biogen {
+    margin-left: 3vw !important;
+  }
+
 
 }
 
-
-footer .siteMapFooter-links {
-    display: none !important;
-}
-
+/*
 @media (min-width: 320px) and (max-width: 768px) and (orientation : portrait) {
 	br.desktop {
 		display: none;
 	}
 }
-
 @media (min-width: 320px) and (max-width: 568px) and (orientation : landscape) {
 	br.desktop {
 		display: none;
@@ -1180,110 +1409,16 @@ footer .siteMapFooter-links {
 		margin-top: unset !important;
 	}
 }
-
-@media only screen and (min-device-width : 480px) and (max-device-width : 1024px) {
-body {
-  width: 100%;
-}
-
-.thumbnail-list {
-		width:100%;
-		margin:50px auto;
-	}
-
-	.thumbnail-block {
-	    /*display:inline-block;
-	    width: 363px;*/
-		float: none;
-	    vertical-align: top;
-	}
-
-	.ms-treatment-description {
-		text-align: center;
-	}
-
-	.ms-treatment-description h3 {
-		color:#75226b;
-		font-size: 18px;
-	}
-
-	footer .footer-links-container .logo-biogen{
-		width: auto;
-		position: absolute;
-    float: left;
-	}
-
-	footer .footer-links-container .footer-info {
-		max-width: 100% !important;
-		font-size: 12px;
-		margin-left: 136px;
-	}
-
-	footer p{
-		text-align: left !important;
-	}
-
-	.page-utils {
-		visibility: hidden;
-	}
-
-	footer {
-		margin-top: -30px;
-	}
-
-	.logo-biogen {
-		margin-left: -80px;
-	}
-
-	footer .footer-links-container .logo-biogen {
-		width: 100%;
-		left: 11%;
-	}
-
-	br.desktop {
-		display: none;
-	}
-}
-
-
-
-@media only screen and (min-device-width: 320px) and (max-device-height: 854px) {
-  	.thumbnail-list {
-  		width:100%;
-  	}
-
-  	/*.thumbnail-block {
-  	    display:inline-block;
-  	}*/
-
-  	.ms-treatment-description {
-  		text-align: center;
-  		padding:10px;
-  	}
-
-  	.ms-treatment-description h3 {
-  		color:#75226b;
-  		font-size: 18px;
-  	}
-
-  	.ms-treatment-description p, .video-title, .video-description  {
-  		font-size: 15px;
-  	}
-
-  	/*footer .logo-biogen{
-  		margin-top: -30px;
-  	}*/
-
-  	.text.parbase.section .disclaimer-text {
-  		font-size: 2.7vw;
-   	}
-
-  }
+*/
 
 @media (max-width: 767px){
   .content-nav .column-control-column ,.calendar-nav .column-control-column {
       background-color: #d7c6d6;
   }
+
+  /*header .fixed-offset {
+    padding: 0 !important;
+  }*/
 
 	.calendar-nav .columncontrol.section{
 		margin-top: 50px;
@@ -1349,7 +1484,7 @@ body {
   }
 
   .footer-image .centered p {
-      font-size: 4vw;
+      font-size: 15px;
       line-height: 1;
       color: #78226b;
       margin-top: 5px;
@@ -1359,6 +1494,9 @@ body {
       position: absolute;
       top: 79%;
       left: 50%;
+      position: absolute;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
       width: 100%;
   }
@@ -1368,8 +1506,73 @@ body {
   }
 }
 
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+/*@media only screen and (min-device-width : 480px) and (max-device-width : 1024px) {
+  body {
+    width: 100%;
+  }
+
+  .thumbnail-list {
+		width:100%;
+		margin:50px auto;
+	}
+
+	.thumbnail-block {
+	    display:inline-block;
+	    width: 363px;
+		float: none;
+	    vertical-align: top;
+	}
+
+	.ms-treatment-description {
+		text-align: center;
+	}
+
+	.ms-treatment-description h3 {
+		color:#75226b;
+		font-size: 18px;
+	}
+
+	footer .footer-links-container .logo-biogen{
+		width: auto;
+		position: absolute;
+    float: left;
+	}
+
+	footer .footer-links-container .footer-info {
+		max-width: 100% !important;
+		font-size: 12px;
+		margin-left: 136px;
+	}
+
+	footer p{
+		text-align: left !important;
+	}
+
+	.page-utils {
+		visibility: hidden;
+	}
+
+	footer {
+		margin-top: -30px;
+	}
+
+	.logo-biogen {
+		margin-left: -80px;
+	}
+
+	footer .footer-links-container .logo-biogen {
+		width: 100%;
+		left: 11%;
+	}
+
+	br.desktop {
+		display: none;
+	}
+}*/
+
+/* Ipad Mini */
+@media only screen and (min-device-width: 768px) and (min-device-height: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2) {
   .text.parbase.section .disclaimer-text {
 		font-size: 1.4vw;
 	}
@@ -1383,11 +1586,15 @@ body {
 		margin-left: -23px;
 	}
 
+  .content-nav.nav-selection {
+    margin-bottom: 65px;
+  }
+
 	.calendar-nav {
 		margin-top: -50px;
 	}
 
-	content-nav .columncontrol.section .text.parbase.section {
+	.content-nav .columncontrol.section .text.parbase.section {
 		width: 148px;
 	}
 
@@ -1398,155 +1605,55 @@ body {
 	.calendarpicker.section {
 		padding-top: 43px;
 		width: 295px;
-		margin-left: -209px !important;
-	}
-}
-
-@media (min-width: 768px){
-	.text.parbase.section .disclaimer-text {
-		font-size: 1.4vw;
+		/*margin-left: -209px !important;*/
 	}
 
-	.image.adaptiveimage.parbase.section .img-responsive{
-		margin-bottom: -50px;
-	}
-	.content-nav h3, .calendar-nav h3 {
-		font-size: 1.8vw;
-		width: 123px;
-		margin-left: 24px;
-	}
-
-	.calendar-nav {
-		margin-top: unset;
-	}
-
-	content-nav .columncontrol.section .text.parbase.section {
-		width: 148px;
-	}
-
-	.content-nav .columncontrol.section .image.parbase.section, .calendar-nav .columncontrol.section .image.parbase.section {
-		width: 131px;
-	}
-
-  footer .footer-links-container .logo-biogen{
-    position: absolute;
-    float: left;
-  }
-
-  footer .footer-links-container .footer-info {
-    max-width: 100% !important;
-    font-size: 12px;
-    margin-left: 230px;
-  }
-
-  .footer-info p {
-    text-align: left;
+  footer .footer-links-container .logo-biogen {
+    width: 100%;
+    left: 0;
   }
 }
 
-@media (min-width: 950px){
 
-}
+/*Mobile devices default*/
+@media only screen and (max-width: 736px) and (orientation: landscape){
+  /*.fixed-offset {
+      padding-top: 10px !important;
+  }*/
 
-@media (min-width: 992px){
-	.text.parbase.section .disclaimer-text {
-		font-size: 1.2vw;
-	}
-
-	.image.adaptiveimage.parbase.section .img-responsive{
-		margin-bottom: -80px;
-	}
-	.content-nav h3, .calendar-nav h3 {
-		font-size: 1.4;
-		width: 165px;
-	}
-	.calendar-nav {
-		margin-top: unset;
-	}
-
-  .thumbnail-block {
-      display: inline-block;
-      width: 322px;
-      vertical-align: top;
-  }
-
-  .thumbnail-list {
-    max-width: 992px;
-  }
-
-  .ms-treatment-description p {
+  footer .footer-links-container .logo-biogen {
     width: auto;
   }
 
-}
-
-@media (min-width: 1024px){
-	.text.parbase.section .disclaimer-text {
-		font-size: 1.2vw;
-	}
-
-	.image.adaptiveimage.parbase.section .img-responsive{
-		margin-bottom: -80px;
-	}
-	.content-nav h3, .calendar-nav h3 {
-		font-size: 1.4vw;
-		width: 165px;
-	}
-	.calendar-nav {
-		margin-top: unset;
-	}
-
-  .thumbnail-block {
-      display: inline-block;
-      width: 327px;
-      vertical-align: top;
+  .nav-selection .text, .promopodenhanced .caption p {
+      font-size: 2em;
   }
 
-  .thumbnail-list {
-    max-width: 992px;
+  .banner-image .header-text {
+    font-size: 4.5vw !important;
   }
-  .calendar-nav .calendarpicker.section {
-      margin-left: -145px;
-  }
-
-}
-
-@media (min-width: 1349px){
-	.text.parbase.section .disclaimer-text {
-		font-size: 0.9vw;
-	}
-	.content-nav h3, .calendar-nav h3 {
-		font-size: 1.2vw;
-		width: 165px;
-	}
-
-	.thumbnail-block {
-		display: inline-block;
-		width: 363px;
-		vertical-align: top;
-	}
-  .thumbnail-list {
-    max-width: 1100px;
-  }
-}
-
-@media (min-width: 1500px){
-	.content-nav h3, .calendar-nav h3 {
-		font-size: 1vw;
-		width: 165px;
-	}
-}
-
-/*Mobile devices default*/
-
-@media only screen and (max-width: 736px) and (orientation: landscape){
 
 }
 
 
 @media only screen and (max-width: 412px) and (orientation : portrait) {
+  /*.fixed-offset {
+    padding-top: 10px !important;
+  }*/
 
+  .logo-options .col1 .first {
+    padding: 0 90px;
+    display: inline-block;
+    vertical-align: bottom;
+    padding: 0;
+    margin-left: 50px;
+  }
+
+  .calendar-nav .calendarpicker.section {
+    width: auto;
+  }
 }
+
 
 
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
@@ -1557,6 +1664,9 @@ body {
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) {
+    /*.fixed-offset{
+      padding-top: 0 !important;
+    }*/
 
     .content-nav .columncontrol.section .image.parbase.section, .calendar-nav .columncontrol.section .image.parbase.section{
       width: auto;
@@ -1610,6 +1720,9 @@ body {
   and (device-width: 736px)
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) {
+    /*.fixed-offset{
+      padding-top: 10;
+    }*/
 
     .dropdownbutton.section{
       margin-bottom: 40px;
@@ -1657,27 +1770,24 @@ body {
 }
 
 /* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
-
-/* Portrait and Landscape */
-@media only screen
-  and (device-width: 320px)
-  and (device-height: 568px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-
-}
-
 /* Portrait */
 @media only screen
   and (device-width: 320px)
   and (device-height: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-    .content-nav .columncontrol.section, .calendar-nav .columncontrol.section{
-        height: 0;
-    }
 
+  .logo-options .col1 .first {
+    padding: 0 90px;
+    display: inline-block;
+    vertical-align: bottom;
+    padding: 0;
+    margin-left: 50px;
+  }
 
+  .calendar-nav .calendarpicker.section {
+    width: auto;
+  }
 }
 
 /* Landscape */
@@ -1688,5 +1798,11 @@ body {
   and (orientation: landscape) {
 
 
+  footer .footer-links-container .logo-biogen {
+    width: 100%;
+  }
 
+  .nav-selection .text, .promopodenhanced .caption p {
+      font-size: 2em;
+  }
 }
