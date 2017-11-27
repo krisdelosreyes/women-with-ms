@@ -8,7 +8,7 @@
 
 .banner-image .desktop-image, .questions-page{
   display: block;
-  max-width: 1400px;
+  max-width: 100%; /*1400px;*/
   margin-left: auto;
   margin-right: auto;
 }
@@ -131,7 +131,7 @@ h3.h5.media-heading {
 }
 
 p.article-title {
-    font-size: 22px;
+    font-size: 25px !important;
     line-height: 8px;
     margin-bottom: 25px;
 }
@@ -322,10 +322,6 @@ div#desktopWithLinks2 {
 
 div.next-link.right{
   width: 140px;
-}
-
-.columncontrol .col-md-6 {
-    width: auto;
 }
 
 .columncontrol .col-md-6 .exercise-tips{
@@ -731,6 +727,10 @@ div.cq-dd-image {
 @media (min-width: 992px){
   .main.generic-page.full-width {
     margin-top: 0;
+  }
+
+  .text.parbase.section p, .text.parbase.section ul, .media-body p, .media img{
+    font-size: 18px;
   }
 
 	.content .text-callout p{
@@ -1238,7 +1238,7 @@ div.cq-dd-image {
     }
 
     .content .text-callout p {
-        font-size: 5.5vw;
+        font-size: 30px;
         font-style: normal;
         display: block;
         margin-bottom: 0;
@@ -1549,6 +1549,10 @@ div.cq-dd-image {
     margin-left: 10px;
     margin-right: 10px;
   }
+
+  .promopodenhanced .centerimg, .questions-mininav #linkWork, .questions-mininav #verticalWork {
+      padding: 10px;
+  }
 }
 
 
@@ -1561,6 +1565,10 @@ div.cq-dd-image {
     width: 40% !important;
     margin-left: 10px;
     margin-right: 10px;
+  }
+
+  .promopodenhanced .centerimg, .questions-mininav #linkWork, .questions-mininav #verticalWork {
+    padding: 10px;
   }
 }
 
