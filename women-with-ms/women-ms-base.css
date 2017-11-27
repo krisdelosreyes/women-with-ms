@@ -1,0 +1,1908 @@
+@font-face {
+ font-family: 'GillSansMT';
+ src: url('/content/dam/commercial-au/neurology/womenwithms/pat/en_au/fonts/GillSansMT.ttf') format("truetype");
+}
+
+@font-face {
+ font-family: 'GillSansMT-Bold';
+ src: url('/content/dam/commercial-au/neurology/womenwithms/pat/en_au/fonts/GillSansMT-Bold.ttf') format("truetype");
+}
+
+@font-face {
+ font-family: 'GillSansMT-BoldItalic';
+ src: url('/content/dam/commercial-au/neurology/womenwithms/pat/en_au/fonts/GillSansMT-BoldItalic.ttf') format("truetype");
+}
+
+@font-face {
+ font-family: 'GillSansMT-Italic';
+ src: url('/content/dam/commercial-au/neurology/womenwithms/pat/en_au/fonts/GillSansMT-Italic.ttf') format("truetype");
+}
+
+@font-face {
+ font-family: 'MinionPro-Regular';
+ src: url('/content/dam/commercial-au/neurology/womenwithms/pat/en_au/fonts/MinionPro-Regular.otf') format("opentype");
+}
+
+
+header {
+	margin: 0;
+	background-color: #75226b;
+}
+
+body, .sortablelistgenerator, footer{
+  font-family: "GillSansMT" !important;
+}
+
+footer .footer-links-container p a {
+    	color:#5c6770 !important;
+    	text-decoration: none !important;
+}
+
+.template--home .page-title .page-utils{
+  display: none;
+}
+
+.logo-options{
+	background-color: #75226b;
+}
+
+.calendarOptions p {
+    background-color: #ffffff;
+}
+
+
+.bx-pager a {
+	background: unset !important;
+	border: 1.5px solid #ccc;
+	border-radius: 15px;
+}
+
+.hero .caption p {
+    font-style: normal;
+    font-size: 2.8em ;
+    font-family: GillSansMT;
+    display: block;
+    margin-bottom: 0;
+    color: #75226b;
+    text-transform: initial;
+    text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+}
+
+.desktop-disclaimer {
+    line-height: 1.5;
+}
+
+.hero .caption p b{
+    font-weight: 400;
+}
+
+
+.text-callout{
+    margin-top: 50px;
+}
+
+.text-callout p{
+    font-style: normal;
+    font-family: GillSansMT;
+    font-size: 3.5em;
+    display: block;
+    margin-bottom: 0;
+    color: #75226b;
+}
+
+.text-callout p b{
+   font-weight: 400;
+}
+
+
+div.carousel {
+    margin-top: 3px;
+    margin-bottom: 0;
+}
+
+.carousel .wrapper {
+    position: relative;
+    max-width: 1400px;
+}
+
+div.bx-viewport{
+    /*width: 100%;
+    overflow: hidden;
+    position: relative;*/
+    height: auto !important;
+}
+
+div.hero span.responsive-options img{
+  width: 100% !important;
+}
+
+.bx-controls .slider-prev a, .bx-controls .slider-next a {
+    color: #929aa0;
+    display: none;
+}
+
+
+.bx-pager a:hover, .bx-pager a.active {
+    background: none repeat scroll 0 0 #ffffff!important;
+}
+
+.bx-pager .bx-pager-item {
+	margin-left: 20px;
+}
+
+
+.mobile-menu-toggle {
+    position: absolute;
+    left: 0;
+    bottom: 30px !important;
+    color: #f5f5f5;
+    display: block;
+    font-size: 16px;
+    height: 24px;
+    padding-top: 6px;
+    text-align: center;
+    width: 35px;
+    margin-left: 8px;
+    z-index: 2001;
+}
+
+
+.mobile-menu-toggle .icon-bar {
+    width: 30px;
+    height: 4px;
+    margin: 0 auto 5px;
+    background-color: #eeeeee;
+}
+
+.hero .caption {
+	bottom: 60px;
+}
+
+.thumbnail-block .thumbnail{
+	border: 0 solid #ddd;
+}
+
+.page-header-generic .nav-pills .glyphicon {
+    display: none;
+}
+
+.promopodenhanced {
+  margin-left: auto;
+  margin-right: auto;
+  /*max-width: 1200px !important;
+  width: 100% !important;*/
+  max-width: 100% !important;
+  width: auto !important;
+}
+
+.promopodenhanced .centerimg {
+    width: 222px !important;
+}
+
+
+.ms-treatment-description{
+  text-align: center;
+}
+
+.ms-treatment-description h3, .video-title {
+    color: #75226b;
+    font-size: 1.4em;
+    font-family: GillSansMT-Bold;
+}
+
+.ms-treatment-description p {
+    text-align: center;
+    width: 330px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2em;
+}
+
+.canvas-container .columncontrol .nav-selection .row {
+    display: inline-block;
+}
+
+.content-nav .columncontrol .row{
+  width: 530px;
+}
+
+.calendar-nav .columncontrol .row {
+  width: 620px;
+}
+
+#dropdownMenuButton, #calendarButton {
+  font-size: 14px;
+  color: #fff;
+  letter-spacing: 1.5px;
+  height: 41px;
+  border-radius: 9px;
+}
+
+.nav-selection .text, .promopodenhanced .caption p {
+    font-size: 1.43em;
+    font-weight: bolder;
+    font-family: "GillSansMT-Bold";
+    color: #75216c;
+}
+
+footer {
+  border-bottom: none !important;
+}
+
+footer .back-to-top .icon-span {
+  background: #771d64;
+}
+
+.footer-image {
+    position: relative;
+    text-align: center;
+}
+
+footer .footer-links-container .logo-biogen{
+  width: auto;
+  position: absolute;
+  float: left;
+}
+
+footer .footer-links-container .footer-info {
+  max-width: 100% !important;
+  font-size: 12px;
+  margin-left: 136px;
+}
+
+/** component mini navigation **/
+.content-nav .columncontrol.section, .calendar-nav .columncontrol.section {
+  width: 100%;
+  margin: 0 auto;
+  display: inherit;
+  background-color: #dac3d7;
+  height: 130px;
+}
+
+.content-nav .columncontrol.section .image.parbase.section, .calendar-nav .columncontrol.section .image.parbase.section {
+  width: 150px;
+}
+
+.content-nav .columncontrol.section img.cq-dd-image, .calendar-nav .columncontrol.section img.cq-dd-image {
+  width: unset;
+  margin-left: auto;
+    margin-right: auto;
+  padding-top: 20px;
+}
+
+.content-nav .columncontrol.section .text.parbase.section{
+    width: 190px;
+    margin: unset;
+    margin-left: -50px;
+  padding-top: 10px;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.calendar-nav .columncontrol.section .text.parbase.section{
+  width: 170px;
+  margin: unset;
+  margin-left: -20px;
+  padding-top: 5px;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.calendar-nav .html.parbase.section, .calendar-nav .calendarpicker.section{
+    margin: unset;
+    margin-left: 10px;
+    padding-top: 40px;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+.calendar-nav .calendarpicker.section{
+    padding-top: 43px;
+    width: 300px;
+    margin: unset;
+    margin-left: -115px;
+    z-index: 1000;
+    position: sticky;
+}
+
+.calendarOptions  #iCalendar {
+  background-position: -225px 0;
+}
+
+.calendarOptions  #googleCalendar {
+  background-position: -150px 0;
+}
+
+.calendarOptions  #Outlook {
+  background-position: -75px 0;
+}
+
+.calendarOptions  .buttonclick {
+  background-image: url(/content/dam/commercial-au/neurology/womenwithms/pat/en_au/images/button/button_calendar_select.png) !important;
+	color: rgba(127, 255, 212, 0);
+	border-radius: 8px;
+}
+
+.image.adaptiveimage.parbase.section img {
+    width: 100%;
+}
+
+.text.parbase.section .disclaimer-text {
+    color: #78226b;
+    text-shadow: antiquewhite !important;
+}
+
+.image.adaptiveimage.parbase.section .img-responsive{
+	margin-bottom: -80px;
+}
+
+
+.dropdownbutton.section {
+    margin-top: 40px;
+    /* text-align: center; */
+}
+
+.dropdown-menu {
+    min-width: 215px;
+    margin: 2px -30px 0;
+    text-align: center;
+    background-color: #dac3d7;
+
+}
+
+.dropdownbutton .dropdown-item {
+  font-weight: bolder !important;
+  color: #86386f !important;
+  font-size: 14px;
+  border-bottom: 1px solid #86386f !important;
+  padding: 10px 11px !important;
+}
+
+a.dropdown-item:last-child {
+    border-bottom: 0 !important;
+}
+
+.content-nav h3, .calendar-nav h3 {
+    color: #781f64;
+    font-size: 20px;
+}
+
+.canvas-container .columncontrol.section {
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.canvas-container .columncontrol.section .row {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1150px;
+  width: 100%;
+}
+
+.canvas-container {
+  width: 100%;
+
+}
+
+.main-nav .wrapper > ul > li > a, .main-nav .wrapper > ul ul{
+  font-family: "GillSansMT";
+  font-size: 14px;
+}
+
+.main-nav .wrapper > ul ul {
+  background: unset;
+
+}
+
+.main-nav {
+  background: #75226b;
+   margin-top: -15px;
+}
+
+.main-nav .wrapper > ul ul {
+  top:71px;
+  padding: unset;
+  padding-left: 1px;
+  padding-right: 1px;
+  padding-bottom: 1px;
+}
+
+.main-nav .wrapper > ul > li{
+  width: 110px;
+  margin-right: 20px;
+}
+
+.main-nav .wrapper > ul > li:last-of-type{
+  width: 130px;
+}
+
+.main-nav .wrapper > ul ul li {
+  margin-left: unset;
+  margin-right: unset;
+}
+.main-nav .wrapper > ul ul li a {
+    line-height: 1.5;
+}
+.main-nav .wrapper > ul ul li.last {
+    margin-bottom: unset;
+}
+.main-nav .wrapper > ul ul li.last a {
+    padding-bottom: 12px;
+}
+.main-nav .wrapper ul li .over {
+  background: #75226b;
+}
+.main-nav .caret{
+  display: none;
+}
+
+.main-nav .wrapper ul li a, .main-nav .wrapper ul li a:hover {
+  color: #ffffff;
+  font-weight: 300;
+  line-height: 1.5;
+  white-space: inherit;
+}
+
+.main-nav .wrapper ul li a:hover{
+  background-color: #75226b !important;
+}
+
+.main-nav .wrapper ul ul li a:hover{
+  background-color:rgba(255, 255, 255,0.5) !important;
+}
+
+.no-touchcapable .main-nav .wrapper ul li.here a{
+  color: #ffffff;
+  /*font-weight : bolder;*/
+}
+
+.no-touchcapable .main-nav .wrapper ul li a:visited{
+  background: #75226b !important;
+}
+
+
+.main-nav .wrapper ul ul{
+  background: #75226b;
+
+}
+
+.main-nav .wrapper ul ul li{
+  border-bottom: #fff 1px solid;
+
+}
+
+.main-nav .wrapper ul ul li a:hover {
+  background: #75226b;
+  text-decoration: none;
+  padding: 10px 10px;
+}
+
+.main-nav .wrapper ul ul .over a{
+  background: rgba(92, 103, 112, 0);
+  color: #ffffff;
+}
+
+.no-touchcapable .main-nav .wrapper ul ul li a:hover{
+  background-color: rgba(243, 240, 240, 0.35) !important;
+  text-decoration-line: none !important;
+}
+
+.no-touchcapable .main-nav .wrapper ul li.here a{
+  color: #ffffff;
+}
+
+ul.main-nav-list {
+    position: absolute;
+    top: 3%;
+    left: 40%;
+    z-index: 1000;
+}
+
+.main-nav .wrapper > ul > li.here > a, .main-nav .wrapper > ul > li.parent-here > a {
+    color: #ffffff;
+    border-bottom: 2px solid #fff;
+}
+
+li.level-1:last-child {
+  border-bottom: none;
+}
+
+.thumbnail-list {
+  max-width: 1130px;
+  margin:50px auto;
+}
+
+video{
+  max-width: 100%;
+  width: 630px;
+  float: left;
+  height: auto;
+  border: 4px solid #75216c;
+}
+
+.video-content {
+  text-align: left;
+  margin-top: 25%;
+}
+
+p.video-heading {
+  margin-bottom: 40px;
+}
+
+.video-description p {
+  margin-bottom: 1px;
+}
+
+.popular-stories {
+  margin-top: 60px;
+}
+
+.main-nav .wrapper > ul > li > a:hover, .main-nav .wrapper > ul > li > a:focus {
+    text-decoration: none;
+}
+
+.template--generic-one-column header, .template--register header, .template--search-results header {
+  border-bottom: 19px solid #fff;
+}
+
+.popular-stories .promopodenhanced .imageHolderHorizontal .caption p:after,
+.popular-stories .promopodenhanced .small-caption p:after,
+.popular-stories .promopodenhanced .caption h1:after
+ {
+  content: ">";
+  margin-top: 5px;
+  font-size: medium;
+  margin-left: 9px;
+  position: absolute;
+}
+
+.popular-stories .imageHolder img{
+  width: 100% !important;
+}
+
+.popular-stories .imageHolder .caption {
+  margin-left: 0.5em;
+  margin-right: auto;
+  max-width: 185px;
+}
+
+.siteMapFooter-links{
+  display: none !important;
+}
+
+a.dropdown-item:hover {
+    background-color: #75216c;
+    color: #ffff !important;
+}
+
+header .main-nav .wrapper > ul > .over > a {
+   background: #75226b;
+   color: white;
+   text-decoration: none;
+   border-bottom: 2px solid #ffff;
+}
+
+footer .col.col-sm-3.col-md-3.last {
+    display: none;
+}
+
+.thumbnail {
+  padding: 8px;
+}
+
+/*text resizing*/
+@media screen and (min-width: 500px){
+  .hero .caption p, .hero .caption h3, .carousel h3.sub-title-carousel {
+    font-size: 1.21em;
+  }
+
+  .text-callout p{
+    font-size: 2.2em;
+  }
+
+  .hero-content-bottom-center .caption {
+    bottom: 45px !important;
+  }
+
+  .ms-treatment-description h3{
+    font-size: 1.7em;
+  }
+
+  .ms-treatment-description p, .video-title, .video-description {
+      font-size: 1.5em;
+  }
+
+  #dropdownMenuButton, #calendarButton{
+    font-size: 1.6em;
+  }
+
+  .dropdownbutton .dropdown-item{
+    font-size: 1.6em;
+  }
+
+  .fancy span{
+    font-size: 1.9em;
+  }
+
+  .fancy span:before, .fancy span:after{
+    width: 450px !important;
+  }
+
+  .promopodenhanced .small-caption p {
+    font-size: 1.9em;
+    width: 135px;
+  }
+
+  .promopodenhanced .small-caption {
+    margin-left: 12px;
+  }
+}
+
+/*text resizing*/
+
+@media only screen and (max-width: 768px){
+  header .fixed {
+    /*position: relative;*/
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+
+  body {
+    font-size: 14px;
+  }
+
+  .popular-stories .promopodenhanced.section {
+    width: 90% !important;
+  }
+
+  .popular-stories .promopodenhanced .small-caption p {
+    font-size: 1.6em;
+  }
+
+  .video-player .col-md-8{
+    width: 100%;
+  }
+
+  video {
+    float: none;
+    width: 100%
+  }
+  .video-content {
+    margin-top: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .small-caption {
+    width: auto !important;
+  }
+
+  .ms-treatment-description p {
+    width: auto;
+  }
+
+  .popular-stories .promopodenhanced .centerimg,.popular-stories .promopodenhanced .mobile{
+    margin-right: 0 !important;
+    margin-left: 0;
+    width: 41% !important;
+    display: block !important;
+  }
+
+  .promopodenhanced #linkWork {
+    width: 40vw !important;
+    display: inline-block !important;
+  }
+
+  .video-content {
+    margin-top: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: left;
+  }
+
+  .video-player .col-sm-4{
+    width: 100%;
+  }
+
+  .popular-stories a:hover{
+    color: #86386f;
+  }
+
+}
+
+@media only screen and (max-width: 768px) and (min-width: 481px) and (orientation: portrait){
+  header .fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+
+
+  .carousel h3.sub-title-carousel {
+    font-size: 1.21em !important;
+  }
+
+  .footer-image .desktop-image {
+      display: none;
+  }
+
+  .footer-image .mobile-image {
+      display: block;
+  }
+
+  .footer-image .centered p {
+      font-size: 3vw;
+      line-height: 1;
+      color: #78226b;
+      margin-top: 5px;
+  }
+
+  .footer-image .centered {
+      position: absolute;
+      top: 79%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .hero .caption p, .hero .caption h3 {
+    font-size: 1.24em ;
+  }
+
+  header .fixed {
+    position: relative;
+    border-bottom: 2px solid #edeeef;
+  }
+
+  div.carousel {
+    margin-bottom: 0;
+  }
+
+  .footer-image .desktop-image {
+      display: block;
+  }
+
+  .footer-image .mobile-image {
+      display: none;
+  }
+
+  .footer-image .centered p {
+      font-size: 13px;
+      line-height: 0.7;
+      color: #78226b;
+      margin-top: 5px;
+  }
+
+  .footer-image .centered {
+      position: absolute;
+      top: 85%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      width: 100%;
+  }
+
+  .text-callout p{
+    font-size: 1.9em;
+  }
+
+  .hero-content-bottom-center .caption {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  #dropdownMenuButton, #calendarButton{
+    font-size: 1em;
+  }
+
+  .dropdownbutton .dropdown-item{
+    font-size: 1.2em;
+  }
+
+  .ms-treatment-description h3 {
+    font-size: 1.5em;
+  }
+
+  .ms-treatment-description p, .video-title, .video-description {
+      font-size: 1.4em;
+      padding-left: 10px;
+      padding-right: 10px;
+      font-weight: 100;
+  }
+
+  .video-content {
+    margin-top: 0;
+  }
+
+  .text.parbase.section .disclaimer-text {
+		font-size: 1.4vw;
+	}
+
+	.image.adaptiveimage.parbase.section .img-responsive{
+		margin-bottom: -50px;
+	}
+	.content-nav h3, .calendar-nav h3 {
+		font-size: 1.8vw;
+		width: 123px;
+		margin-left: 24px;
+	}
+
+	.calendar-nav {
+		margin-top: unset;
+	}
+
+	content-nav .columncontrol.section .text.parbase.section {
+		width: 148px;
+	}
+
+	.content-nav .columncontrol.section .image.parbase.section, .calendar-nav .columncontrol.section .image.parbase.section {
+		width: 131px;
+	}
+
+  footer .footer-links-container .logo-biogen{
+    position: absolute;
+    float: left;
+    margin-top: 25px;
+    margin-left: 3vw !important;
+  }
+
+  footer .footer-links-container .footer-info {
+    max-width: 100% !important;
+    font-size: 12px;
+    margin-left: 20vw !important;
+  }
+
+  footer .row {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer-info p {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 992px){
+  .hero .caption p, .hero .caption h3 {
+    font-size: 1.4em ;
+  }
+
+  .thumbnail > img, .thumbnail a > img {
+      width: 100%;
+  }
+
+  header{
+    border-bottom: 12px solid #fff;
+  }
+
+  .footer-image .centered p {
+      font-size: 14px;
+      line-height: 0.7;
+      color: #78226b;
+      margin-top: 5px;
+  }
+
+
+  .text-callout p{
+    font-size: 2.3em;
+  }
+
+  .video-content {
+    margin-left: 0;
+    margin-top: 25%;
+  }
+
+  .footer-image .desktop-image{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .carousel .wrapper {
+    position: relative;
+    max-width: 100%;
+  }
+
+  .text.parbase.section .disclaimer-text {
+    font-size: 1.2vw;
+  }
+
+  .image.adaptiveimage.parbase.section .img-responsive{
+    margin-bottom: -80px;
+  }
+
+  .content-nav h3, .calendar-nav h3 {
+    font-size: 1.4;
+    width: 165px;
+  }
+
+  .calendar-nav {
+    margin-top: unset;
+  }
+
+  .thumbnail-block {
+      display: inline-block;
+      width: 322px;
+      vertical-align: top;
+  }
+
+  .thumbnail-list {
+    max-width: 992px;
+  }
+
+  .ms-treatment-description p {
+    width: auto;
+  }
+
+}
+
+@media screen and (min-width: 1024px){
+	.text.parbase.section .disclaimer-text {
+		font-size: 1.2vw;
+	}
+
+  .footer-image .centered p {
+      font-size: 17px;
+      line-height: 0.7;
+      color: #78226b;
+      margin-top: 5px;
+  }
+
+	.image.adaptiveimage.parbase.section .img-responsive{
+		margin-bottom: -80px;
+	}
+
+	.content-nav h3, .calendar-nav h3 {
+		font-size: 1.4vw;
+		width: 165px;
+	}
+	.calendar-nav {
+		margin-top: unset;
+	}
+
+  .thumbnail-block {
+		display: inline-block;
+		width: 33%; /*327px*/
+		vertical-align: top;
+	}
+
+  .thumbnail-list {
+    max-width: 1146px; /*992px*/
+  }
+
+  .calendar-nav .calendarpicker.section {
+      margin-left: -145px;
+  }
+
+  .promopodenhanced .centerimg {
+    width: 19% !important;
+  }
+
+  footer .footer-links-container .footer-info {
+    max-width: 100% !important;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+}
+
+/*for promo po*/
+@media screen and (min-width: 1147px){
+  .thumbnail-block {
+		display: inline-block;
+		width: 374px; /*327px*/
+		vertical-align: top;
+	}
+
+  .thumbnail-list {
+    max-width: 1130px; /*992px*/
+  }
+
+  .promopodenhanced .centerimg {
+    width: 222px !important;
+  }
+}
+
+@media screen and (min-width: 1349px){
+	.text.parbase.section .disclaimer-text {
+		font-size: 0.9vw;
+	}
+	.content-nav h3, .calendar-nav h3 {
+		font-size: 1.2vw;
+		width: 165px;
+	}
+
+	.thumbnail-block {
+		display: inline-block;
+		width: 374px; /*363px*/
+		vertical-align: top;
+	}
+
+  .thumbnail-list {
+    max-width: 1130px; /*1100px*/
+  }
+
+  footer .footer-links-container .logo-biogen {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 1366px){
+
+  body{
+		width: 100%;
+	}
+	header{
+		height: auto;
+		border-bottom: 12px solid #fff;
+	}
+
+  .bx-pager a {
+      width: 2.5em !important;
+      height: 2.5em !important;
+      margin: -25px 5px !important;
+  }
+
+	.mobile-menu-toggle{
+	display: none;
+	}
+
+  .hero .caption p, .hero .caption h3 {
+    font-size: 1.6em ;
+  }
+
+  .text-callout p{
+    font-size: 3.2em;
+  }
+
+  .hero-content-bottom-center .caption {
+    bottom: 100px !important;
+  }
+
+  .content-nav, .calendar-nav {
+    display: inline;
+    max-width: auto;
+  }
+
+	.thumbnail-block {
+    display: inline-block;
+    width: 374px;
+    vertical-align: top;
+  }
+
+	.ms-treatment-description {
+		text-align: center;
+	}
+
+
+
+	.image.adaptiveimage.parbase.section {
+		width: 100%;
+		background: #b897b4;
+		text-align: center;
+	}
+
+
+	.content .main .adaptiveimage figure img {
+		width: auto;
+	}
+
+	.row.footer-links-container {
+		width: 1200px;
+		margin: 10px auto;
+	}
+
+	footer .footer-links-container .logo-biogen{
+		position: absolute;
+    margin-top: 0;
+    margin-left: -80px !important;
+	}
+
+	footer p{
+		text-align: left !important;
+	}
+
+	.page-utils {
+		visibility: hidden;
+	}
+
+	.logo-biogen1{
+	    margin-top: 11px;
+	}
+
+	.logo-biogen2 {
+	 	float:none !important;
+    }
+
+    .references {
+    	margin-bottom: 50px;
+    	font-size: 12px;
+    }
+
+    .video-content {
+      margin-left: -60px;
+    }
+
+    video {
+      float: left;
+    }
+
+    footer .footer-links-container .footer-info {
+      margin-left: 5vw !important;
+    }
+}
+
+@media only screen and (min-width: 1500px){
+	.content-nav h3, .calendar-nav h3 {
+		font-size: 1vw;
+		width: 165px;
+	}
+}
+
+@media  screen and (min-width: 1024px) and (max-width: 1365px) {
+	ul.main-nav-list {
+		left:30%;
+	}
+
+  .mobile-menu-toggle{
+    display: none;
+  }
+
+  .bx-pager a {
+    width: 2.5vw !important;
+    height: 2.5vw !important;
+    margin: -25px 5px !important;
+  }
+
+  footer .footer-links-container .footer-info {
+    max-width: 100% !important;
+    font-size: 12px;
+  }
+
+  footer .footer-links-container .logo-biogen {
+    margin-top: 15px;
+  }
+
+  .footer-info p {
+    text-align: left;
+  }
+}
+
+@media  screen and (min-width: 1024px) and (max-width: 1366px)
+and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait) {
+	body {
+		width: 111%;
+	}
+
+  .mobile-menu-toggle{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1023px){
+	ul.main-nav-list {
+    left: 26%;
+  }
+  .mobile-menu-toggle{
+    display: none;
+  }
+
+  .bx-pager a {
+    width: 2.5vw !important;
+    height: 2.5vw !important;
+    margin: -18px 5px !important;
+  }
+
+  footer .footer-links-container .logo-biogen{
+    position: absolute;
+    float: left;
+  }
+
+  footer .footer-links-container .footer-info {
+    max-width: 100% !important;
+    font-size: 12px;
+    margin-left: 230px;
+  }
+
+  .footer-info p {
+    text-align: left;
+  }
+
+  footer .footer-links-container .logo-biogen {
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 991px){
+	.main-nav {
+		background: #75226b;
+		z-index: 1;
+	}
+
+  .thumbnail > img, .thumbnail a > img {
+    width: auto;
+  }
+
+  .main-nav .wrapper > ul > li > a:after, .main-nav .wrapper > ul > li > a:before{
+    display: none;
+  }
+
+  ul.main-nav-list {
+      top: 3%;
+      left: 10px;
+  }
+
+  .main-nav .wrapper > ul > li, .main-nav .wrapper > ul > li:last-of-type{
+      width: auto;
+      margin-right: 0;
+      border-bottom: 1px solid #e5e5e5;
+  }
+
+  .main-nav .wrapper ul li a, .main-nav .wrapper ul li a:hover{
+    text-align: left;
+  }
+
+  .page_home .columncontrol .col-md-6{
+    width: 700px;
+  }
+
+	.main-nav ul li a {
+    	color: white;
+    	text-transform: uppercase;
+   	font-weight: 300;
+    	font-style: normal;
+   	text-transform: uppercase;
+    	line-height: 1;
+    	text-align: center;
+    	display: block;
+    	font-size: 13px;
+    	padding: 12px 45px 8px 15px;
+    	position: relative;
+	}
+
+
+	.no-touchcapable .main-nav .wrapper ul li a:hover {
+  	background : none;
+	}
+
+	.main-nav ul ul{
+	background: #75226b;
+	}
+
+	.main-nav .caret {
+	display:none;
+	}
+
+	.main-nav .wrapper ul li  a.on{
+	background: #75226b;
+	}
+
+	.main-nav ul ul li a:hover{
+	    background: #75226b !important;
+	    color: #f4f4f4;
+	}
+
+  .thumbnail-list {
+    width: 100%;
+    margin: 50px auto;
+  }
+
+  .thumbnail-block {
+    float: none;
+    vertical-align: top;
+  }
+
+  .ms-treatment-description {
+    text-align: center;
+  }
+
+  .page_home .canvas-container .columncontrol.section .row {
+    max-width: 100%;
+    width: 700px;
+  }
+
+  .fancy span:before, .fancy span:after {
+      width: 115% !important;
+  }
+
+  .bx-pager a {
+    width: 3vw !important;
+    height: 3vw !important;
+    margin: -18px 5px !important;
+  }
+}
+
+@media (max-width: 620px){
+	.hero .caption p {
+		display: block;
+		font-size: 4.4vw !important;
+	}
+
+  .hero .caption {
+    bottom: 11.2vw;
+  }
+
+	.bx-pager a {
+		width: 3vw !important;
+		height: 3vw !important;
+		margin: -18px 5px !important;
+	}
+
+  .text-callout p {
+      font-size: 5vw !important;
+  }
+
+	.references .wrapper {
+    max-width: 100%;
+  }
+
+  .thumbnail-list {
+    width: 100%;
+    margin: 50px auto;
+  }
+
+  .thumbnail-block {
+    float: none;
+    vertical-align: top;
+  }
+
+  .ms-treatment-description {
+      text-align: center;
+      padding-left: 5px;
+      padding-right: 5px;
+  }
+
+  .ms-treatment-description h3 {
+    font-size: 1.6em;
+  }
+
+  .ms-treatment-description p, .video-title, .video-description  {
+      font-size: 1.5em;
+  }
+
+  #dropdownMenuButton, #calendarButton{
+    font-size: 1.6em;
+  }
+
+  .dropdownbutton .dropdown-item{
+    font-size: 1.6em;
+  }
+
+  .fancy span{
+    font-size: 1.9em;
+  }
+
+  .fancy span:before, .fancy span:after{
+    width: 100%;
+  }
+
+  .promopodenhanced .small-caption p {
+
+    font-size: 1.9em;
+    width: 135px;
+  }
+
+  .promopodenhanced .small-caption {
+    margin-left: 12px;
+  }
+
+  .text.parbase.section .disclaimer-text {
+    font-size: 1.2em;
+  }
+
+  .text.parbase.section .disclaimer-text {
+    margin-top: -25px;
+  }
+
+}
+
+@media (max-width: 414px){
+  .hero .caption p {
+      display: block;
+      font-size: 4.9vw !important;
+  }
+  .text-callout p {
+    font-size: 6vw !important;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px){
+	.hidden-sm {
+		display: none !important;
+	}
+
+  footer .wrapper{
+    max-width: 992px;
+  }
+
+  footer .row {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  footer .footer-links-container .logo-biogen {
+    margin-top: 25px;
+  }
+
+  footer .footer-links-container .footer-info {
+    margin-left: 20vw !important;
+  }
+
+  footer .footer-links-container .logo-biogen {
+    margin-left: 3vw !important;
+  }
+
+
+}
+
+/*
+@media (min-width: 320px) and (max-width: 768px) and (orientation : portrait) {
+	br.desktop {
+		display: none;
+	}
+}
+@media (min-width: 320px) and (max-width: 568px) and (orientation : landscape) {
+	br.desktop {
+		display: none;
+	}
+
+	.text.parbase.section .disclaimer-text {
+		font-size: 2.5vw !important;
+	}
+
+	.image.adaptiveimage.parbase.section .img-responsive {
+		margin-bottom: -90px;
+	}
+	.text.parbase.section {
+		margin-top: unset !important;
+	}
+}
+*/
+
+@media (max-width: 767px){
+  .content-nav .column-control-column ,.calendar-nav .column-control-column {
+      background-color: #d7c6d6;
+  }
+
+  /*header .fixed-offset {
+    padding: 0 !important;
+  }*/
+
+	.calendar-nav .columncontrol.section{
+		margin-top: 50px;
+	}
+	.calendar-nav .html.parbase.section{
+		padding-top: 30px;
+	}
+
+  .nav-selection .text, .promopodenhanced .caption p{
+    font-size: 1.8em;
+  }
+
+  .content-nav .columncontrol.section .image.parbase.section, .calendar-nav .columncontrol.section .image.parbase.section{
+    width: auto;
+  }
+
+  .page_home .columncontrol .col-md-6 {
+      width: auto;
+      max-width: 100%;
+  }
+
+  .content-nav .columncontrol.section, .calendar-nav .columncontrol.section {
+    height: auto;
+  }
+
+  .content-nav .columncontrol.section .text.parbase.section, .calendar-nav .columncontrol.section .text.parbase.section, .calendar-nav .html.parbase.section, .calendar-nav .calendarpicker.section{
+    height: auto;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .canvas-container .columncontrol.section .row {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    width: 768px;
+  }
+
+  .content-nav .columncontrol.section .image.parbase.section, .calendar-nav .columncontrol.section .image.parbase.section{
+    width: auto;
+  }
+
+  page_home .columncontrol .col-md-6 {
+      width: auto;
+      max-width: 100%;
+  }
+
+  .dropdownbutton.section{
+    margin-bottom: 40px;
+  }
+
+  .dropdown-menu {
+    margin: 0;
+  }
+
+  .footer-image .desktop-image {
+      display: none;
+  }
+
+  .footer-image .mobile-image {
+      display: block;
+  }
+
+  .footer-image .centered p {
+      font-size: 15px;
+      line-height: 1;
+      color: #78226b;
+      margin-top: 5px;
+  }
+
+  .footer-image .centered {
+      position: absolute;
+      top: 79%;
+      left: 50%;
+      position: absolute;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      width: 100%;
+  }
+
+  .logo-biogen1, .logo-biogen2 {
+    margin-top: -30px;
+  }
+}
+
+/*@media only screen and (min-device-width : 480px) and (max-device-width : 1024px) {
+  body {
+    width: 100%;
+  }
+
+  .thumbnail-list {
+		width:100%;
+		margin:50px auto;
+	}
+
+	.thumbnail-block {
+	    display:inline-block;
+	    width: 363px;
+		float: none;
+	    vertical-align: top;
+	}
+
+	.ms-treatment-description {
+		text-align: center;
+	}
+
+	.ms-treatment-description h3 {
+		color:#75226b;
+		font-size: 18px;
+	}
+
+	footer .footer-links-container .logo-biogen{
+		width: auto;
+		position: absolute;
+    float: left;
+	}
+
+	footer .footer-links-container .footer-info {
+		max-width: 100% !important;
+		font-size: 12px;
+		margin-left: 136px;
+	}
+
+	footer p{
+		text-align: left !important;
+	}
+
+	.page-utils {
+		visibility: hidden;
+	}
+
+	.logo-biogen {
+		margin-left: -80px;
+	}
+
+	footer .footer-links-container .logo-biogen {
+		width: 100%;
+		left: 11%;
+	}
+
+	br.desktop {
+		display: none;
+	}
+}*/
+
+/* Ipad Mini */
+@media only screen and (min-device-width: 768px) and (min-device-height: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  .text.parbase.section .disclaimer-text {
+		font-size: 1.4vw;
+	}
+
+	.image.adaptiveimage.parbase.section .img-responsive{
+		margin-bottom: -50px;
+	}
+	.content-nav h3, .calendar-nav h3 {
+		font-size: 2vw;
+		width: 105px;
+		margin-left: -23px;
+	}
+
+  .content-nav.nav-selection {
+    margin-bottom: 65px;
+  }
+
+	.calendar-nav {
+		margin-top: -50px;
+	}
+
+	.content-nav .columncontrol.section .text.parbase.section {
+		width: 148px;
+	}
+
+	.content-nav .columncontrol.section .image.parbase.section, .calendar-nav .columncontrol.section .image.parbase.section {
+		width: 131px;
+	}
+
+	.calendarpicker.section {
+		padding-top: 43px;
+		width: 295px;
+		/*margin-left: -209px !important;*/
+	}
+
+  footer .footer-links-container .logo-biogen {
+    width: 100%;
+    left: 0;
+  }
+}
+
+
+/*Mobile devices default*/
+@media only screen and (max-width: 736px) and (orientation: landscape){
+  /*.fixed-offset {
+      padding-top: 10px !important;
+  }*/
+
+  .hero-content-bottom-center .caption {
+    bottom: 30px !important;
+  }
+
+  footer .footer-links-container .logo-biogen {
+    width: auto;
+  }
+
+  .nav-selection .text, .promopodenhanced .caption p {
+      font-size: 2em;
+  }
+
+  .banner-image .header-text {
+    font-size: 4.5vw !important;
+  }
+
+  .footer-image .centered p {
+    font-size: 17px;
+  }
+
+  .desktop-disclaimer {
+    line-height: 1.5;
+    width: auto;
+    margin-bottom: 25px;
+    margin-top: 40px;
+  }
+
+  footer .footer-links-container .logo-biogen {
+    width: auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  footer .footer-links-container .footer-info {
+    text-align: center !important;
+    max-width: 80% !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  footer .footer-links-container p{
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+
+  footer .logo-biogen {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+}
+
+
+@media only screen and (max-width: 412px) and (orientation : portrait) {
+  /*.fixed-offset {
+    padding-top: 10px !important;
+  }*/
+
+  .logo-options .col1 .first {
+    padding: 0 90px;
+    display: inline-block;
+    vertical-align: bottom;
+    padding: 0;
+    margin-left: 50px;
+  }
+
+  .calendar-nav .calendarpicker.section {
+    width: auto;
+  }
+}
+
+
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait */
+@media only screen
+  and (device-width: 414px)
+  and (device-height: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+    /*.fixed-offset{
+      padding-top: 0 !important;
+    }*/
+
+    .content-nav .columncontrol.section .image.parbase.section, .calendar-nav .columncontrol.section .image.parbase.section{
+      width: auto;
+    }
+
+    .page_home .columncontrol .col-md-6 {
+        width: auto;
+        max-width: 100%;
+    }
+
+    .content-nav .columncontrol.section, .calendar-nav .columncontrol.section {
+      height: auto;
+    }
+
+    .content-nav .columncontrol.section .text.parbase.section, .calendar-nav .columncontrol.section .text.parbase.section, .calendar-nav .html.parbase.section, .calendar-nav .calendarpicker.section{
+      height: auto;
+      margin-top: 0;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .canvas-container .columncontrol.section .row {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 100% ;
+      width: auto;
+    }
+
+    .content-nav .columncontrol.section .image.parbase.section, .calendar-nav .columncontrol.section .image.parbase.section{
+      width: auto;
+    }
+
+    .page_home .columncontrol .col-md-6 {
+        width: auto;
+        max-width: 100%;
+    }
+
+    .dropdownbutton.section{
+      margin-bottom: 40px;
+    }
+
+    .dropdown-menu {
+      margin: 0;
+    }
+
+}
+
+/* Landscape */
+@media only screen
+  and (device-height: 414px)
+  and (device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+    /*.fixed-offset{
+      padding-top: 10;
+    }*/
+
+    .dropdownbutton.section{
+      margin-bottom: 40px;
+    }
+
+    .content-nav .columncontrol.section .image.parbase.section, .calendar-nav .columncontrol.section .image.parbase.section{
+      width: auto;
+    }
+
+    .page_home .columncontrol .col-md-6 {
+        width: auto;
+        max-width: 100%;
+    }
+
+    .content-nav .columncontrol.section, .calendar-nav .columncontrol.section {
+      height: auto;
+    }
+
+    .content-nav .columncontrol.section .text.parbase.section, .calendar-nav .columncontrol.section .text.parbase.section, .calendar-nav .html.parbase.section, .calendar-nav .calendarpicker.section{
+      height: auto;
+      margin-top: 0;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .canvas-container .columncontrol.section .row {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+        width: 500px;
+    }
+
+    .content-nav .columncontrol.section .image.parbase.section, .calendar-nav .columncontrol.section .image.parbase.section{
+      width: auto;
+    }
+
+    .page_home .columncontrol .col-md-6 {
+        width: auto;
+        max-width: 100%;
+    }
+
+    .dropdown-menu {
+      margin: 0;
+    }
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+/* Portrait */
+@media only screen
+  and (device-width: 320px)
+  and (device-height: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+  .logo-options .col1 .first {
+    padding: 0 90px;
+    display: inline-block;
+    vertical-align: bottom;
+    padding: 0;
+    margin-left: 50px;
+  }
+
+  .calendar-nav .calendarpicker.section {
+    width: auto;
+  }
+
+  .footer-image .centered p {
+      font-size: 12px;
+  }
+
+}
+
+/* Landscape */
+@media only screen
+  and (device-width: 320px)
+  and (device-height: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+  footer .footer-links-container .logo-biogen {
+    width: 100%;
+  }
+
+  .nav-selection .text, .promopodenhanced .caption p {
+      font-size: 2em;
+  }
+
+  .footer-image .centered p {
+      font-size: 14px;
+  }
+}
