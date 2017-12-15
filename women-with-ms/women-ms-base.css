@@ -53,7 +53,7 @@ footer .footer-links-container p a {
 
 .bx-pager a {
 	background: unset !important;
-	border: 1.5px solid #ccc;
+	border: 1.5px solid #fff;
 	border-radius: 15px;
 }
 
@@ -278,6 +278,16 @@ footer .footer-links-container .footer-info {
     margin-right: auto;
     text-align: center;
     margin-top: 10px;
+}
+
+/*li.level-1.has-children > a {
+    pointer-events: none;
+    cursor: default;
+}*/
+
+.isi a, .references a {
+    color: #333;
+    text-decoration: none;
 }
 
 /* Safari 10.1+ (which is the latest version of Safari at this time) */
@@ -541,7 +551,7 @@ li.level-1:last-child {
 
 .thumbnail-list {
   max-width: 1130px;
-  margin:50px auto;
+  margin: 50px auto 0;
 }
 
 video{
@@ -871,11 +881,16 @@ footer .col.col-sm-3.col-md-3.last {
     font-size: 1.2em;
   }
 
-  .ms-treatment-description p, .video-title, .video-description {
-      font-size: 1.5em;
+.video-title, .video-description {
+      font-size: 1.2em;
       padding-left: 10px;
       padding-right: 10px;
       font-weight: 100;
+  }
+
+
+  .ms-treatment-description p {
+    font-size: 1.1em;
   }
 
   .video-content {
@@ -1739,6 +1754,10 @@ and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait) {
     footer .footer-links-container .logo-biogen {
       width: 27%;
     }
+
+    .video-title {
+      text-align: center;
+    }
   }
 
 
@@ -1761,9 +1780,11 @@ and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait) {
 
     .ms-treatment-description p, .video-title, .video-description {
       font-size: 1.5em;
-  }
+    }
 
-
+    .video-title {
+      text-align: center;
+    }
 
 }
 

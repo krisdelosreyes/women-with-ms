@@ -135,6 +135,14 @@ h3.h5.media-heading, .mini-navigation .fancy2 span, p.article-title, .newsTeaser
     color:#75226b;
 }
 
+.fancy2 span {
+  color : black !important;
+}
+
+.fancy2 span:before, .fancy2 span:after {
+  border-bottom: 2px solid #86386F;
+}
+
 h3.h5.media-heading {
     font-size: 20px;
 }
@@ -205,7 +213,7 @@ body, .NextSteps .buttonclickInintial{
 
 .questions-mininav .mini-navigation {
   border: 1px solid #5c6770;
-  margin-top: 55px;
+  margin-top: 50px;
 /*  width: 310px;*/
 }
 
@@ -266,6 +274,7 @@ body, .NextSteps .buttonclickInintial{
   font-size: medium;
   margin-left: 9px;
   position: absolute;
+  color: #000;
 }
 
 .questions-wrapper span.add:after{
@@ -378,6 +387,63 @@ div.cq-dd-image {
   }
 
 
+img.cq-dd-image {
+  margin-top: 10px;
+}
+
+.content .text-callout {
+  margin: 10px 0 25px 0;
+}
+
+p.exercise-tips, p.stress-free, .food-for-thought-container, .in-shoes, p.fatigue{
+  margin-top: 34px;
+}
+
+p.food-for-thought {
+    margin-top: 0em !important;
+}
+
+p.article-title {
+    font-size: 24px !important;
+    line-height: 8px;
+    margin-bottom: 25px;
+    font-weight: bold;
+  }
+
+.popular-column-list {
+    margin-bottom: -35px;
+}
+
+.media img.cq-dd-image {
+    margin-top: 25px;
+}
+
+
+p.separate-title {
+    margin-bottom: -20px;
+}
+
+.strength-container, .exercise-program {
+  margin-top: -20px;
+}
+
+.tip-four {
+  margin-top: -10px;
+}
+
+.tip-four-article, .eat-small {
+  margin-top: -10px;
+}
+
+
+.tip1-mobile {
+  display: none;
+}
+
+.family-first-article {
+  margin-top: -15px;
+}
+
 /*banner, carousel max 1400px*/
 @media (max-width: 1399px){
   .banner-image .desktop-image{
@@ -401,6 +467,10 @@ div.cq-dd-image {
   .content .text-callout p{
     font-size: 1.8em;
   }
+
+  .separate-title {
+    display: none;
+  }
 }
 /*banner, carousel max 1400px*/
 
@@ -410,7 +480,7 @@ div.cq-dd-image {
   }
 
   .col-md-2.link-align.left{
-    margin-left: 15px;
+    margin-left: 0px;
   }
 
   /*.left .caption .leftArrow{
@@ -536,9 +606,9 @@ div.cq-dd-image {
     font-size: 0.9em;
   }
 
-  .teasertile .media-body p.teaser-first {
+/*  .teasertile .media-body p.teaser-first {
     margin-top: -15px;
-  }
+  }*/
 
   .teasertile {
     font-weight: 100;
@@ -830,7 +900,7 @@ div.cq-dd-image {
   }
 
   .questions-mininav .mini-navigation .caption2 p {
-    font-size: 1em;
+    font-size: 1.1em;
   }
 
   .questions-mininav .mini-navigation .imageHolder {
@@ -856,9 +926,9 @@ div.cq-dd-image {
     font-size: 0.9em;
   }
 
-  .teasertile .media-body p.teaser-first {
+  /*.teasertile .media-body p.teaser-first {
     margin-top: -15px;
-  }
+  }*/
 
   .teasertile {
     font-weight: 100;
@@ -878,7 +948,17 @@ div.cq-dd-image {
     margin-left: auto;
     margin-right: auto;
   }
+
+.popular-stories {
+      display: none !important;  
+ }
+
+ .media {
+  margin: 0;
+ }
+
 }
+
 
 @media (min-width: 768px) and (max-width: 991px) {
   .banner-image .header-text {
@@ -1217,11 +1297,10 @@ div.cq-dd-image {
     }
 
     .popular-stories {
-        border-top: 1px solid #ccc;
+        /*border-top: 1px solid #ccc;*/
         color: #75226b;
-        padding-top: 22px;
         padding-bottom: 8px;
-        margin-top: 50px;
+        margin-top: 20px;
         background: url('../images/pop-title-bg.png') no-repeat;
         background-position: 47px 25px;
     }
@@ -1258,7 +1337,7 @@ div.cq-dd-image {
 
     .text.parbase.section ul {
         margin-left: 25px;
-        margin-top: -6px;
+        /*margin-top: -6px;*/
     }
 
    .generic-text-image.textimage.parbase.section {
@@ -1306,7 +1385,7 @@ div.cq-dd-image {
 		line-height: 1.5em;
 		padding: 5px;
 		border: none;
-    margin-top:-15px;
+    margin-top:-20px;
     }
 
 	/*.text.cq-dd-image {
@@ -1464,7 +1543,17 @@ div.cq-dd-image {
   .teasertile .media {
     margin-left: 0;
     margin-right: 0;
+    margin-top: 0;
   }
+
+  .media img.cq-dd-image {
+    margin-top:0;
+  }
+
+  .questions-mininav {
+    margin-top: -45px;
+  }
+
 
   .content .existingQue span.question, .content .questionssorting .dragcontent {
     font-weight: 500;
@@ -1586,7 +1675,7 @@ div.cq-dd-image {
   }
 
   .text-callout p {
-      font-size: 4.5vw !important;
+      font-size: 4vw !important;
   }
   .NextSteps .buttonclickInintial{
     width: 40% !important;
@@ -1625,8 +1714,6 @@ div.cq-dd-image {
   }
 
 }
-
-
 
 
 /* Ipad Mini */
@@ -1670,6 +1757,16 @@ div.cq-dd-image {
       margin-top:1.5em;
       margin-bottom: 1.5em;
     }
+
+   p.approach {
+      margin-top: 0;
+      padding-top: 0;
+    }
+  
+  .tip1-mobile {
+    display: none;
+  }
+
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-height: 1024px)
@@ -1729,6 +1826,23 @@ div.cq-dd-image {
       width: 70% !important;
       margin-top: 0;
     }
+
+    p.approach {
+      margin-top: 0;
+      padding-top: 0;
+    }
+
+    .strength-container, .exercise-program {
+    margin-top: -20px !important;
+  }
+
+  .tip1-mobile {
+    display: none;
+  }
+
+  p.exercise-tips, p.stress-free, .in-shoes {
+    margin-top: 0 !important;
+  }
      
 }
 
@@ -1775,6 +1889,23 @@ div.cq-dd-image {
     .banner-image {
       margin-bottom: 20px !important;
     }
+
+    p.approach {
+      margin-top: 0;
+      padding-top: 0;
+    }
+
+    .strength-container, .exercise-program {
+    margin-top: -20px;
+  }
+
+  .tip1-mobile {
+    display: none;
+  }
+
+  p.exercise-tips, p.stress-free, .in-shoes {
+    margin-top: 0 !important;
+  }
 
 }
 
@@ -2642,12 +2773,23 @@ div.cq-dd-image {
     margin-bottom: 0;
     margin-top: 0;
   }
+
+  .fancy span {
+    color: #000 !important;
+  }
+
+  footer .footer-links {
+    padding: 0 !important;
+  }
 }
 
+/*iphone 6*/
+
 @media only screen and (max-width: 768px) and (min-width: 320px) and (orientation: landscape) {
+
   .promopodenhanced .small-caption p {
     margin-top: 25%;
-    font-size: 1.4em;
+    font-size: 1.3em;
     width: 100% !important;
   }
 
@@ -2679,6 +2821,74 @@ div.cq-dd-image {
     margin-top: 0;
   }
 
+  .fancy span {
+    color: #000 !important;
+  }
+
+  p.exercise-tips {
+    margin-top: -65px;
+  }
+
+  .strength-container {
+    margin-top: 0;
+  }
+
+  p.strength-title {
+    margin-top: -10px;
+  }
+
+  .separate-title {
+    display: none;
+  }
+
+  .tip1-mobile {
+    display: block;
+  }
+
+  p.stress-free {
+    margin-top: -80px;
+  }
+
+  p.tip2-title, p.tip4-title,  p.tip5-title,  p.tip6-title, p.tip6-title, p.tip7-title {
+    margin-top: -20px;
+  }
+
+  p.tip-all-title {
+    margin-top: -27px;
+  }
+
+   .food-for-thought-container, .in-shoes {
+    margin-top: -40px;
+  }
+
+  p.eat-title, p.quick-title, p.power-title, p.work-title, p.fatigue-title {
+    margin-top:-25px;
+  }
+
+  p.support-title {
+    margin-top: -10px;
+  }
+
+  .row.rowCentering.withdescsafari {
+    justify-content: inherit;
+  }
+
+  .popular-stories-landing .withdescsafari #desktopWithDescription2 {
+    width: 65%;
+  }
+
+  .media .media-body {
+    float: none;
+    padding: 0;
+  }
+
+  .media {
+    margin-bottom: 0;
+  }
+
+  .stay-active {
+    padding: 5px;
+  }
 
 }
 
@@ -2701,7 +2911,7 @@ div.cq-dd-image {
   }
 
   p.approach {
-    padding-top:20px;
+    padding-top:10px;
   }
 
   .media {
@@ -2714,6 +2924,62 @@ div.cq-dd-image {
     margin-top: 0;
   }
 
+  .fancy span {
+    color: #000 !important;
+  }
+
+  footer .footer-links {
+    padding: 0 !important;
+  }
+
+  p.exercise-tips {
+    margin-top: -24px;
+  }
+
+  div#pop-bullet-left {
+    margin-top: -30px;
+  }
+
+  .strength-container {
+    margin-top: 0;
+  }
+
+  p.strength-title {
+    margin-top: -10px;
+  }
+
+  .separate-title {
+    display: none;
+  }
+
+  .tip1-mobile {
+    display: block;
+  }
+
+  p.stress-free {
+    margin-top: -55px;
+  }
+
+  p.tip2-title, p.tip4-title, p.tip-all-title,  p.tip5-title,  p.tip6-title {
+    margin-top: -22px;
+  }
+
+  .food-for-thought-container, .in-shoes {
+    margin-top: -40px;
+  }
+
+  p.eat-title, p.quick-title, p.power-title, p.work-title {
+    margin-top:-20px;
+  }
+
+  p.fatigue-title {
+    margin-top: -25px;
+  }
+
+  .media .media-body {
+    float: none;
+    padding: 0;
+  }
 
 }
 
@@ -2722,4 +2988,9 @@ div.cq-dd-image {
   .questions-mininav .promopodenhanced .small-caption p {
         font-size: 1.1em;
   }
+
+  .fancy span {
+    color: #000 !important;
+  }
+
 }
